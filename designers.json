@@ -1,0 +1,234 @@
+[
+  {
+    "name": "Gal Shir",
+    "domain": "Brand / Illustration",
+    "credentials": "Tel Aviv-based designer, illustrator and art director; former design lead at insurance unicorn Lemonade (2016-2019); creator of the widely-used design tools Color Hunt, Pose (30,000+ illustrators) and Float; large following across Dribbble, Instagram and X.",
+    "credentials_source": "https://galshir.com/about",
+    "quote": "It's over. I'm quitting design. A client of mine just created a logo with Fable 5, and the result left me speechless... My skepticism about AI's ability to do great design is officially gone.",
+    "quote_source": "https://x.com/galshirart/status/2074854464729629060",
+    "quote_note": "His viral July 2026 post (5.6M views) - dramatic/satirical in tone (even Figma CEO Dylan Field asked if he was serious), but a genuine, widely-discussed 'AI floored me' moment from an established designer.",
+    "images": [
+      {"url": "https://pbs.twimg.com/profile_images/1636555445443579904/galshir.jpg", "caption": "Gal Shir"}
+    ]
+  },
+  {
+    "name": "John Maeda",
+    "domain": "Design + Technology",
+    "credentials": "Designer-technologist; former President of the Rhode Island School of Design (RISD) and ex-Design Partner at Kleiner Perkins; author of the widely-read annual 'Design in Tech' reports and a recognized authority on design and computation.",
+    "credentials_source": "https://www.figma.com/blog/uphill-thinking/",
+    "quote": "Wow, I can make so much more art. I can sit here and use Midjourney and do all these things.",
+    "quote_source": "https://www.superside.com/blog/ai-and-creativity",
+    "images": [
+      {"url": "https://cdn.sanity.io/images/k0dlbavy/production/8cba8e4b62b74c2be90edaf71c95d981177ad335-2656x2656.png", "caption": "John Maeda"}
+    ]
+  },
+  {
+    "name": "Yves Béhar",
+    "domain": "Industrial / Product Design",
+    "credentials": "Founder and principal designer of fuseproject, one of the most influential industrial designers of his generation, known for the OLPC laptop, Jawbone, the Herman Miller SAYL chair, and the ElliQ AI companion robot.",
+    "credentials_source": "https://fuseproject.com/yves-behar/",
+    "quote": "As designers that conceive new human experiences at fuseproject, we have embraced AI, robotics and smart environments as a way to deliver simpler and deeper experiences.",
+    "quote_source": "https://fuseproject.com/news/for-ai-to-be-great-design-must-do-good/",
+    "images": [
+      {"url": "https://imagedelivery.net/5oG01IhuA6dGyMwD4IKCHQ/fuseproject.com/2025/03/Yves-Boat-Intl-1080-x-1080.png", "caption": "Yves Béhar"},
+      {"url": "https://imagedelivery.net/5oG01IhuA6dGyMwD4IKCHQ/fuseproject.com/2024/12/AI_elli_q_blog_2-1600x900-c-default.jpg/w=800,h=450", "caption": "ElliQ AI companion robot by fuseproject"}
+    ]
+  },
+  {
+    "name": "Brian Chesky",
+    "domain": "Product / Industrial Design",
+    "credentials": "Co-founder and CEO of Airbnb and a trained industrial designer (BFA, RISD); widely cited as proof a designer can build and lead a major technology company.",
+    "credentials_source": "https://www.dezeen.com/2014/01/28/silicon-valley-didnt-think-a-designer-could-build-a-company-interview-airbnb-co-founder-brian-chesky/",
+    "quote": "I'm so excited about the opportunity for AI. It feels like 2008 again when the App Store just came out, maybe like 1993, '94 with the internet, but much bigger actually, more profound.",
+    "quote_source": "https://www.printmag.com/podcasts/2026/design-matters-brian-chesky/",
+    "images": [
+      {"url": "https://i0.wp.com/www.printmag.com/wp-content/uploads/2026/01/Brian-Chesky.jpeg?fit=1568%2C1568&quality=89&ssl=1", "caption": "Brian Chesky"}
+    ]
+  },
+  {
+    "name": "Jordan Singer",
+    "domain": "Product Design Engineering",
+    "credentials": "Product design engineer and founder/CEO of Diagram, an AI design-tools startup acquired by Figma in 2023; previously spent four years designing on the Cash App team at Square.",
+    "credentials_source": "https://mercury.com/blog/jordan-singer",
+    "quote": "It's a creative extension of the thoughts that I put in. It's becoming something that I don't think I can imagine living without.",
+    "quote_source": "https://mercury.com/blog/jordan-singer",
+    "images": [
+      {"url": "https://www.datocms-assets.com/115132/1745881259-2025_blog_jordan-singer-hero_1x1.png", "caption": "Jordan Singer"}
+    ]
+  },
+  {
+    "name": "Julie Zhuo",
+    "domain": "Product / UX Design",
+    "credentials": "Former VP and Head of Design at Facebook (Meta), where she led a team of 100+ designers; author of the bestselling 'The Making of a Manager' and co-founder of the AI data-analysis company Sundial.",
+    "credentials_source": "https://www.lennysnewsletter.com/p/from-managing-people-to-managing-ai-julie-zhuo",
+    "quote": "Why show static mocks when AI can build a version of the damn thing for your stakeholders to play with?",
+    "quote_source": "https://joulee.medium.com/the-death-of-product-development-as-we-know-it-1bcae948ce61",
+    "images": [
+      {"url": "https://miro.medium.com/v2/resize:fill:256:256/0*bOVFN2_iLTHM5m2c.jpeg", "caption": "Julie Zhuo"}
+    ]
+  },
+  {
+    "name": "Paula Scher",
+    "domain": "Graphic Design",
+    "credentials": "Partner at Pentagram (New York) since 1991 and one of the most celebrated graphic designers alive - identities for The Public Theater, Citibank, MoMA and Microsoft; AIGA Medal recipient. In 2025 her team built the federal Performance.gov site using a Midjourney-trained library of 1,500+ icons.",
+    "credentials_source": "https://en.wikipedia.org/wiki/Paula_Scher",
+    "quote": "We will use the best tools available to us to accomplish the ideas we have. The definition of design in the dictionary is 'a plan.' We created a plan, and it was based around the fact that this would be self-sustaining.",
+    "quote_source": "https://gdusa.com/pentagram-federal-website-generates-ai-controversy/",
+    "images": [
+      {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Paula_Scher_interview_OnCreativity.jpg/960px-Paula_Scher_interview_OnCreativity.jpg", "caption": "Paula Scher, Pentagram partner"}
+    ]
+  },
+  {
+    "name": "Jessica Walsh",
+    "domain": "Brand / Agency",
+    "credentials": "Founder and creative director of the New York agency &Walsh (clients include Barneys, Snapchat, Levi's); previously partner at Sagmeister & Walsh; founder of the mentorship nonprofit Ladies, Wine & Design. Her studio rebranded nuclear-advocacy project Isodope using DALL·E.",
+    "credentials_source": "https://en.wikipedia.org/wiki/Jessica_Walsh",
+    "quote": "AI is already here, and it will continue to have an exponentially large presence in the creative world. We can choose to ignore it and become outdated by it. Or we can choose to find creative ways to work with it and push our work further into territories that we couldn't have before.",
+    "quote_source": "https://www.creativeboom.com/inspiration/isodope-walsh/",
+    "images": [
+      {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Jessica_Walsh_2013.jpg/960px-Jessica_Walsh_2013.jpg", "caption": "Jessica Walsh, founder of &Walsh"},
+      {"url": "https://www.creativeboom.com/upload/articles/bd/bddb0c88810775bf4c5b4fd5997df1f2b3072eeb_800.jpg", "caption": "Isodope branding by &Walsh, developed with DALL·E"}
+    ]
+  },
+  {
+    "name": "Pum Lefebure",
+    "domain": "Creative Direction / Advertising",
+    "credentials": "Co-founder and Chief Creative Officer of Washington, D.C. agency Design Army (clients include Adobe, Disney, Netflix, Bloomingdale's, PepsiCo); an internationally awarded creative director whose studio produced the fully AI-generated 'Adventures in A-Eye' campaign for Georgetown Optician.",
+    "credentials_source": "https://www.commarts.com/exhibit/georgetown-optician-a-eye-campaign",
+    "quote": "I love working with AI because of the speed. Once you get the formula down, it's like magic.",
+    "quote_source": "https://www.commarts.com/exhibit/georgetown-optician-a-eye-campaign",
+    "images": [
+      {"url": "https://image.commarts.com/images1/1/2/5/1/1/1152168_102_600_OTEyMzY0MTU4LTk2NDg2MDY4Mw_f.jpg", "caption": "Design Army's AI-generated 'Adventures in A-Eye' campaign for Georgetown Optician"},
+      {"url": "https://www.adobomagazine.com/wp-content/uploads/2023/07/SPOTLIGHT-ON-DESIGN-CAMPAIGN-AI-HERO4.jpg", "caption": "Hero image from Design Army's AI-generated eyewear campaign"}
+    ]
+  },
+  {
+    "name": "Christoph Niemann",
+    "domain": "Editorial Illustration",
+    "credentials": "Internationally renowned illustrator and graphic/editorial designer; creator of more than two dozen New Yorker covers, longtime New York Times Magazine contributor, and subject of an episode of Netflix's 'Abstract: The Art of Design'.",
+    "credentials_source": "https://en.wikipedia.org/wiki/Christoph_Niemann",
+    "quote": "When I first learned about computer tools in art school, I was elated. Despite my wariness of AI, I've found some good uses for it.",
+    "quote_source": "https://kottke.org/25/06/how-christoph-niemann-uses-ai-in-his-work",
+    "images": [
+      {"url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Christoph_Niemann_%282%29.jpg", "caption": "Christoph Niemann, illustrator and New Yorker cover artist"}
+    ]
+  },
+  {
+    "name": "Seba Cestaro",
+    "domain": "Editorial Illustration",
+    "credentials": "Editorial illustrator based in Buenos Aires whose selected clients include The New Yorker, The New York Times, Netflix, Wired, The Guardian, Google and Adobe; represented by Jacky Winter.",
+    "credentials_source": "https://www.sebacestaro.com/",
+    "quote": "It sparked my curiosity and compelled me to explore and understand what was happening in this field.",
+    "quote_source": "https://www.itsnicethat.com/features/shades-of-intelligence-insights-research-creative-industry-ai-151123",
+    "images": [
+      {"url": "https://mir-s3-cdn-cf.behance.net/projects/404/d1f728247927221.Y3JvcCw0NTAwLDM1MTksMCw4Nzk.jpg", "caption": "From Seba Cestaro's 'This Is Random' illustration series"},
+      {"url": "https://mir-s3-cdn-cf.behance.net/projects/404/27f422210896231.Y3JvcCwxMjAwLDkzOCwwLDQwNg.jpg", "caption": "Collage explorations from Cestaro's portfolio"}
+    ]
+  },
+  {
+    "name": "Beeple (Mike Winkelmann)",
+    "domain": "Digital Art",
+    "credentials": "Digital artist behind 'Everydays: The First 5000 Days,' which sold at Christie's for $69.3 million in 2021; one of the most-followed digital artists working today.",
+    "credentials_source": "https://en.wikipedia.org/wiki/Beeple",
+    "quote": "For those who have not checked it out yet @midjourney is pretty f***ing insane. Gonna be really interesting to see how these amazing new AI tools affect art moving forward when you can literally just type a few words and make something.",
+    "quote_source": "https://x.com/beeple/status/1530354389109682177",
+    "images": [
+      {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Mike_Winkelmann.png/250px-Mike_Winkelmann.png", "caption": "Beeple (Mike Winkelmann)"}
+    ]
+  },
+  {
+    "name": "Refik Anadol",
+    "domain": "Media Art / AI Data Art",
+    "credentials": "Turkish-American media artist and pioneer of AI/data art; founder of the Los Angeles-based Refik Anadol Studio (2014), former Google artist-in-residence, and creator of the solo AI installation 'Unsupervised' exhibited at the Museum of Modern Art (MoMA).",
+    "credentials_source": "https://www.wipo.int/en/web/wipo-magazine/articles/painting-with-data-how-media-artist-refik-anadol-creates-art-using-generative-ai-67301",
+    "quote": "What happens if a machine can dream and, if it can, who defines what is real and what is not?",
+    "quote_source": "https://www.wipo.int/en/web/wipo-magazine/articles/painting-with-data-how-media-artist-refik-anadol-creates-art-using-generative-ai-67301",
+    "images": [
+      {"url": "https://web.dpp-websync.webcms.prd.web1.wipo.int/dpp-files/67309/Refik-Anadol-Credit-Efsun-Erkilic_.webp", "caption": "Refik Anadol (credit: Efsun Erkilic)"},
+      {"url": "https://web.dpp-websync.webcms.prd.web1.wipo.int/dpp-files/67330/Refik-Anadol-Moma-Unsupervised-Documentation-8_.webp", "caption": "'Unsupervised' at MoMA, New York (2022-2023)"},
+      {"url": "https://web.dpp-websync.webcms.prd.web1.wipo.int/dpp-files/67314/Refik-Anadol-LS-Yawanawa_.webp", "caption": "Refik Anadol Studio, 'Winds of Yawanawa'"}
+    ]
+  },
+  {
+    "name": "Paul Trillo",
+    "domain": "Film / Motion Direction",
+    "credentials": "Award-winning director and visual artist whom OpenAI commissioned to create the first official Sora-generated music video (Washed Out's 'The Hardest Part'); a longtime experimental filmmaker known for inventive camera techniques.",
+    "credentials_source": "https://www.forbes.com/sites/charliefink/2024/05/07/openais-sora-brings-directors-10-year-music-video-vision-to-life/",
+    "quote": "What is unique about AI is that it's this more fluid, organic process where you're ideating... That's what's been really exciting for me: you can actually spend more time trying to craft that story.",
+    "quote_source": "https://www.forbes.com/sites/charliefink/2024/05/07/openais-sora-brings-directors-10-year-music-video-vision-to-life/",
+    "images": [
+      {"url": "https://imageio.forbes.com/specials-images/imageserve/663912ddabf5f14d21b9e045/Paul-Trillo-hs-2023/0x0.jpg?width=960", "caption": "Director Paul Trillo (Forbes, 2024)"}
+    ]
+  },
+  {
+    "name": "Brian Collins",
+    "domain": "Brand Design",
+    "credentials": "Co-founder and Chief Creative Officer of COLLINS, one of the most awarded independent branding companies in the U.S., whose identity work includes Spotify, Dove and Equinox; former Executive Creative Director of the Brand Integration Group at Ogilvy.",
+    "credentials_source": "https://www.brandingmag.com/flavia-barbat/brian-collins-the-brandingmag-interview/",
+    "quote": "So, I'm neither excited nor nervous. I'm relieved. It lets us focus on what matters: using every tool available to create work that's unignorable.",
+    "quote_source": "https://www.designweek.co.uk/how-is-collins-using-ai/",
+    "images": [
+      {"url": "https://cdn.brandingmag.com/wp-content/uploads/2023/02/Featured-Brian-Collins-The-Brandingmag-Intervew.jpg", "caption": "Brian Collins, co-founder of COLLINS"},
+      {"url": "https://cdn.brandingmag.com/wp-content/uploads/2023/02/Cover-Brian-Collins-The-Brandingmag-Intervew.jpg", "caption": "Brian Collins (Brandingmag interview cover)"}
+    ]
+  },
+  {
+    "name": "Max Ottignon",
+    "domain": "Brand Design",
+    "credentials": "Co-founder of Ragged Edge, an independent London brand agency known for identity work for challenger brands including Wise, Depop, Papier and GoCompare; a frequent conference speaker (OFFF, Upscale) on branding and distinctiveness.",
+    "credentials_source": "https://www.creativeboom.com/insight/max-ottognon-ai-is-so-hyped-designers-pretend-to-use-it-more-than-they-actually-do/",
+    "quote": "It doesn't make our projects faster, it doesn't make them cheaper, doesn't make them more efficient, but it makes them better.",
+    "quote_source": "https://www.creativeboom.com/insight/max-ottognon-ai-is-so-hyped-designers-pretend-to-use-it-more-than-they-actually-do/",
+    "images": [
+      {"url": "https://creativereview.imgix.net/uploads/2024/02/10_GoCompare_RaggedEdge_Quote.jpg", "caption": "Ragged Edge's GoCompare rebrand (Creative Review)"}
+    ]
+  },
+  {
+    "name": "Bradley G. Munkowitz (GMUNK)",
+    "domain": "Motion Graphics / Design Direction",
+    "credentials": "American motion-graphics design director and artist with 20+ years in the field; led the team that designed the holographic screen-graphics/UI for the sci-fi feature Tron: Legacy.",
+    "credentials_source": "https://www.cgchannel.com/2011/11/qa-bradley-gmunk-munkowitz-design-director/",
+    "quote": "Until about a year ago, there was one way to achieve these types of effects. Now with AI and the power of the Z8 Fury, there are ten ways to do it, and the results are all incredible.",
+    "quote_source": "https://www.thisiscolossal.com/2024/03/gmunk-hp/",
+    "images": [
+      {"url": "https://www.thisiscolossal.com/wp-content/uploads/2024/02/gmunk-1.jpg", "caption": "GMUNK's AI-assisted work for the Milky Chance 'Synchronize' video"},
+      {"url": "https://www.thisiscolossal.com/wp-content/uploads/2024/02/gmunk-2.jpg", "caption": "Still from GMUNK's AI-assisted CG work"}
+    ]
+  },
+  {
+    "name": "Chad Nelson",
+    "domain": "Creative Direction / Film",
+    "credentials": "Award-winning creative director with ~25 years of experience, now a Creative Specialist at OpenAI who worked on the Sora launch and directed the AI-made short films 'Critterz' (imagery generated with DALL·E).",
+    "credentials_source": "https://www.c21media.net/department/marketing/content-london-exclusive-openais-chad-nelson-to-showcase-how-sora-will-supercharge-creativity-in-content-london-keynote/",
+    "quote": "I was truly floored. I wouldn't say it was the greatest monster design I've ever seen. But what it did do is it captured wonder.",
+    "quote_source": "https://zackarnold.com/artificial-intelligence-future-of-creativity-chad-nelson/",
+    "images": [
+      {"url": "https://cdn.c21media.net/wp-content/uploads/2024/01/chad-nelson_headshot2_bw.jpg", "caption": "OpenAI creative director Chad Nelson"},
+      {"url": "https://zackarnold.com/wp-content/uploads/2024/02/ep249-chad-nelson-1.jpg", "caption": "Chad Nelson, creator of the DALL·E-generated short 'Critterz'"}
+    ]
+  },
+  {
+    "name": "Karen X. Cheng",
+    "domain": "Creative Direction / Viral AI Campaigns",
+    "credentials": "Director and creative known for viral generative-AI creative campaigns; advisor to Runway, collaborator with Adobe Firefly, and a featured creator by NVIDIA in its 'In the NVIDIA Studio' series.",
+    "credentials_source": "https://blogs.nvidia.com/blog/in-the-nvidia-studio-may-10/",
+    "quote": "I never had much drawing skill before, so I feel like I have art superpowers. Human plus AI is going to be better than AI alone for a very, very, very long time.",
+    "quote_source": "https://blogs.nvidia.com/blog/in-the-nvidia-studio-may-10/",
+    "images": [
+      {"url": "https://blogs.nvidia.com/wp-content/uploads/2022/05/karenxcheng-2-1-672x360.jpg", "caption": "Karen X. Cheng's rough scribbles transformed into landscapes using NVIDIA GauGAN2"},
+      {"url": "https://blogs.nvidia.com/wp-content/uploads/2022/05/karenxcheng-4-1-672x378.jpg", "caption": "The NVIDIA Canvas app Cheng used to sketch AI-generated landscapes"}
+    ]
+  },
+  {
+    "name": "Aurore Lechien",
+    "domain": "Brand / Art Direction",
+    "credentials": "Design Director at Base Design (Brussels), an internationally recognized branding studio; provided creative direction on the AI-assisted La Monnaie opera 2023-24 season campaign.",
+    "credentials_source": "https://www.itsnicethat.com/news/base-design-la-monnaie-digital-180923",
+    "quote": "It was so fun. We just had fun for hours.",
+    "quote_source": "https://www.itsnicethat.com/features/shades-of-intelligence-insights-research-creative-industry-ai-151123",
+    "images": [
+      {"url": "https://basedesign2.imgix.net/images/1-FATE-ON-CURTAIN-V2.jpg?auto=format,compress&fit=max&w=2020", "caption": "AI-generated 'Fate' campaign visual from Base Design's La Monnaie opera season"},
+      {"url": "https://basedesign2.imgix.net/images/4-FACADE-2.jpg?auto=format,compress&fit=max&w=2020", "caption": "The AI-assisted La Monnaie campaign on the opera house facade"}
+    ]
+  }
+]

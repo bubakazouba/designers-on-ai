@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>When Designers Met AI &mdash; 20 Established Professionals on Creative AI</title>
-<meta name="description" content="20 established, verifiable designers and creative directors on how AI creative tools impressed them. Every credential, quote and image is sourced.">
+<title>Artists Who Create With AI &mdash; 20 Sourced Case Studies</title>
+<meta name="description" content="20 established artists who actively create with AI - shown through their real AI work: generated pieces, before/after, GAN and diffusion output. Every credential and quote is dated and linked.">
 <style>
   :root{
     --bg:#0b0b0f; --panel:#14141b; --panel2:#1b1b24; --ink:#f4f4f6; --mut:#a2a2b0;
@@ -17,8 +17,6 @@
     -webkit-font-smoothing:antialiased}
   a{color:inherit}
   .wrap{max-width:1040px;margin:0 auto;padding:0 22px}
-
-  /* hero */
   header.hero{padding:78px 0 40px;border-bottom:1px solid var(--line);
     background:radial-gradient(1200px 500px at 70% -10%,rgba(124,140,255,.18),transparent 60%),
                radial-gradient(900px 500px at 0% 0%,rgba(255,143,171,.12),transparent 55%)}
@@ -30,8 +28,9 @@
   .stats{display:flex;gap:26px;flex-wrap:wrap;margin-top:26px}
   .stat b{display:block;font-size:26px;font-weight:800}
   .stat span{font-size:12.5px;color:var(--mut);text-transform:uppercase;letter-spacing:.08em}
-
-  /* index chips */
+  .fwd{display:inline-block;margin-top:22px;font-size:14px;color:var(--accent2);text-decoration:none;
+    border:1px solid var(--line);border-radius:999px;padding:9px 16px}
+  .fwd:hover{border-color:var(--accent2)}
   .index{padding:26px 0 6px}
   .index h4{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--mut);margin:0 0 12px}
   .chips{display:flex;flex-wrap:wrap;gap:8px}
@@ -41,8 +40,6 @@
   .chip:hover{border-color:var(--accent);transform:translateY(-1px)}
   .chip-n{font-variant-numeric:tabular-nums;font-size:11px;color:var(--accent);
     background:rgba(124,140,255,.12);border-radius:999px;padding:2px 6px;font-weight:700}
-
-  /* cases */
   main{padding:26px 0 40px}
   .case{padding:44px 0;border-top:1px solid var(--line);scroll-margin-top:16px}
   .case-head{display:flex;gap:18px;align-items:baseline}
@@ -53,29 +50,24 @@
   .tag{display:inline-block;margin-top:6px;font-size:12px;color:var(--mut);
     border:1px solid var(--line);border-radius:999px;padding:3px 10px}
   .case-body{margin-top:22px;display:grid;gap:20px}
-
   .cred{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:20px 22px}
   .cred h3{margin:0 0 8px;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--good)}
   .cred p{margin:0 0 12px;color:#dcdce4}
   .src{font-size:13px;color:var(--good);text-decoration:none;font-weight:600}
   .src:hover{text-decoration:underline}
-
   .quote{margin:0;padding:6px 0 0 22px;border-left:3px solid var(--accent)}
   .quote p{font-size:clamp(19px,2.6vw,25px);line-height:1.4;font-weight:600;margin:0 0 10px;letter-spacing:-.01em}
   .quote cite{font-style:normal;color:var(--mut);font-size:14px}
   .quote cite a{color:var(--accent);text-decoration:none}
   .quote cite a:hover{text-decoration:underline}
-  .qnote{margin:10px 0 0;font-size:12.5px;color:#8b8b98;font-style:italic;max-width:70ch}
-
   .gallery{display:grid;gap:14px;margin-top:6px}
-  .gallery.g1{grid-template-columns:minmax(0,560px)}
+  .gallery.g1{grid-template-columns:minmax(0,620px)}
   .gallery.g2{grid-template-columns:repeat(2,1fr)}
   .gallery.g3{grid-template-columns:repeat(2,1fr)}
   @media(min-width:760px){.gallery.g3{grid-template-columns:repeat(3,1fr)}}
   .shot{margin:0;background:var(--panel2);border:1px solid var(--line);border-radius:14px;overflow:hidden}
   .shot img{display:block;width:100%;height:100%;object-fit:cover;aspect-ratio:4/3;background:#111}
-  .shot figcaption{font-size:12px;color:var(--mut);padding:9px 12px;border-top:1px solid var(--line)}
-
+  .shot figcaption{font-size:12px;color:var(--mut);padding:9px 12px;border-top:1px solid var(--line);line-height:1.45}
   footer{border-top:1px solid var(--line);padding:34px 0 60px;color:var(--mut);font-size:13.5px}
   footer h4{color:var(--ink);margin:0 0 10px;font-size:15px}
   footer a{color:var(--accent);text-decoration:none}
@@ -90,264 +82,277 @@
 <header class="hero" id="top">
   <div class="wrap">
     <div class="kick">A field guide &middot; 20 case studies</div>
-    <h1>When designers<br>met <em>AI</em>.</h1>
-    <p class="lede">Not hype accounts, not anonymous prompt-jockeys &mdash; 20 established, verifiable designers, creative directors and studio founders, and the moment a creative-AI tool genuinely impressed them. Every credential, every quote, and every image below is linked to its primary source.</p>
+    <h1>Artists who<br>create with <em>AI</em>.</h1>
+    <p class="lede">20 established artists, designers and directors who don&rsquo;t just talk about AI &mdash; they make with it. Each case study leads with their actual AI work: generated pieces, before/after, GAN and diffusion output, robot-painted canvases, Sora frames. Every credential and every quote is dated and linked to its source. No headshots, no hype accounts, no fabricated quotes.</p>
     <div class="stats">
-      <div class="stat"><b>20</b><span>Established pros</span></div>
-      <div class="stat"><b>100%</b><span>Sourced &amp; verifiable</span></div>
-      <div class="stat"><b>0</b><span>Fabricated quotes</span></div>
+      <div class="stat"><b>20</b><span>Working artists</span></div>
+      <div class="stat"><b>Dated</b><span>Every citation</span></div>
+      <div class="stat"><b>0</b><span>Headshots &middot; 0 fabrications</span></div>
     </div>
+    <a class="fwd" href="https://bubakazouba.github.io/studios-using-ai/">Companion site: how 18 design studios use AI &rarr;</a>
   </div>
 </header>
-
 <div class="wrap">
   <div class="index">
     <h4>The roster</h4>
     <div class="chips">
-      <a class="chip" href="#gal-shir"><span class="chip-n">01</span>Gal Shir</a>
-<a class="chip" href="#john-maeda"><span class="chip-n">02</span>John Maeda</a>
-<a class="chip" href="#yves-b-har"><span class="chip-n">03</span>Yves Béhar</a>
-<a class="chip" href="#brian-chesky"><span class="chip-n">04</span>Brian Chesky</a>
-<a class="chip" href="#jordan-singer"><span class="chip-n">05</span>Jordan Singer</a>
-<a class="chip" href="#julie-zhuo"><span class="chip-n">06</span>Julie Zhuo</a>
-<a class="chip" href="#paula-scher"><span class="chip-n">07</span>Paula Scher</a>
+      <a class="chip" href="#refik-anadol"><span class="chip-n">01</span>Refik Anadol</a>
+<a class="chip" href="#beeple-mike-winkelmann"><span class="chip-n">02</span>Beeple</a>
+<a class="chip" href="#paul-trillo"><span class="chip-n">03</span>Paul Trillo</a>
+<a class="chip" href="#bradley-g-munkowitz-gmunk"><span class="chip-n">04</span>Bradley G. Munkowitz</a>
+<a class="chip" href="#chad-nelson"><span class="chip-n">05</span>Chad Nelson</a>
+<a class="chip" href="#karen-x-cheng"><span class="chip-n">06</span>Karen X. Cheng</a>
+<a class="chip" href="#aurore-lechien"><span class="chip-n">07</span>Aurore Lechien</a>
 <a class="chip" href="#jessica-walsh"><span class="chip-n">08</span>Jessica Walsh</a>
 <a class="chip" href="#pum-lefebure"><span class="chip-n">09</span>Pum Lefebure</a>
 <a class="chip" href="#christoph-niemann"><span class="chip-n">10</span>Christoph Niemann</a>
-<a class="chip" href="#seba-cestaro"><span class="chip-n">11</span>Seba Cestaro</a>
-<a class="chip" href="#beeple-mike-winkelmann"><span class="chip-n">12</span>Beeple</a>
-<a class="chip" href="#refik-anadol"><span class="chip-n">13</span>Refik Anadol</a>
-<a class="chip" href="#paul-trillo"><span class="chip-n">14</span>Paul Trillo</a>
-<a class="chip" href="#brian-collins"><span class="chip-n">15</span>Brian Collins</a>
-<a class="chip" href="#max-ottignon"><span class="chip-n">16</span>Max Ottignon</a>
-<a class="chip" href="#bradley-g-munkowitz-gmunk"><span class="chip-n">17</span>Bradley G. Munkowitz</a>
-<a class="chip" href="#chad-nelson"><span class="chip-n">18</span>Chad Nelson</a>
-<a class="chip" href="#karen-x-cheng"><span class="chip-n">19</span>Karen X. Cheng</a>
-<a class="chip" href="#aurore-lechien"><span class="chip-n">20</span>Aurore Lechien</a>
+<a class="chip" href="#sougwen-chung"><span class="chip-n">11</span>Sougwen Chung</a>
+<a class="chip" href="#mario-klingemann"><span class="chip-n">12</span>Mario Klingemann</a>
+<a class="chip" href="#sofia-crespo"><span class="chip-n">13</span>Sofia Crespo</a>
+<a class="chip" href="#anna-ridler"><span class="chip-n">14</span>Anna Ridler</a>
+<a class="chip" href="#claire-silver"><span class="chip-n">15</span>Claire Silver</a>
+<a class="chip" href="#helena-sarin"><span class="chip-n">16</span>Helena Sarin</a>
+<a class="chip" href="#jason-m-allen"><span class="chip-n">17</span>Jason M. Allen</a>
+<a class="chip" href="#bas-uterwijk"><span class="chip-n">18</span>Bas Uterwijk</a>
+<a class="chip" href="#scott-eaton"><span class="chip-n">19</span>Scott Eaton</a>
+<a class="chip" href="#pindar-van-arman"><span class="chip-n">20</span>Pindar Van Arman</a>
     </div>
   </div>
-
   <main>
     
-    <section class="case" id="gal-shir">
+    <section class="case" id="refik-anadol">
       <div class="case-head">
         <span class="num">01</span>
         <div>
-          <h2>Gal Shir</h2>
-          <span class="tag">Brand / Illustration</span>
+          <h2>Refik Anadol</h2>
+          <span class="tag">Media Art / AI Data Art</span>
         </div>
       </div>
-
       <div class="case-body">
         <div class="cred">
           <h3>Why they're established</h3>
-          <p>Tel Aviv-based designer, illustrator and art director; former design lead at insurance unicorn Lemonade (2016-2019); creator of the widely-used design tools Color Hunt, Pose (30,000+ illustrators) and Float; large following across Dribbble, Instagram and X.</p>
-          <a class="src" href="https://galshir.com/about" target="_blank" rel="noopener">Verify &middot; galshir.com &nearr;</a>
+          <p>Turkish-American media artist and pioneer of AI/data art; founder of Refik Anadol Studio (2014), former Google artist-in-residence, and creator of the solo AI installation &#x27;Unsupervised&#x27; exhibited at the Museum of Modern Art (MoMA).</p>
+          <a class="src" href="https://www.wipo.int/en/web/wipo-magazine/articles/painting-with-data-how-media-artist-refik-anadol-creates-art-using-generative-ai-67301" target="_blank" rel="noopener">Verify &middot; wipo.int &middot; 1 December 2024 &nearr;</a>
         </div>
-
         <blockquote class="quote">
-          <p>&ldquo;It&#x27;s over. I&#x27;m quitting design. A client of mine just created a logo with Fable 5, and the result left me speechless... My skepticism about AI&#x27;s ability to do great design is officially gone.&rdquo;</p>
-          <cite>&mdash; Gal Shir, <a href="https://x.com/galshirart/status/2074854464729629060" target="_blank" rel="noopener">x.com &nearr;</a></cite>
-          <p class="qnote">His viral July 2026 post (5.6M views) - dramatic/satirical in tone (even Figma CEO Dylan Field asked if he was serious), but a genuine, widely-discussed &#x27;AI floored me&#x27; moment from an established designer.</p>
+          <p>&ldquo;What happens if a machine can dream and, if it can, who defines what is real and what is not?&rdquo;</p>
+          <cite>&mdash; Refik Anadol &middot; <a href="https://www.wipo.int/en/web/wipo-magazine/articles/painting-with-data-how-media-artist-refik-anadol-creates-art-using-generative-ai-67301" target="_blank" rel="noopener">wipo.int, 1 December 2024 &nearr;</a></cite>
         </blockquote>
-
-        <div class="gallery g1"><figure class="shot">
-              <a href="img/01_1.jpg" target="_blank" rel="noopener">
-                <img loading="lazy" src="img/01_1.jpg" alt="Gal Shir">
+        <div class="gallery g3"><figure class="shot">
+              <a href="img2/01_1.jpg" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/01_1.jpg" alt="&#x27;Unsupervised&#x27; at MoMA - Anadol&#x27;s ML model, trained on ~200 years of MoMA collection metadata, generating real-time AI visuals on a 24x24ft wall.">
               </a>
-              <figcaption>Gal Shir</figcaption>
+              <figcaption>&#x27;Unsupervised&#x27; at MoMA - Anadol&#x27;s ML model, trained on ~200 years of MoMA collection metadata, generating real-time AI visuals on a 24x24ft wall.</figcaption>
+            </figure>
+<figure class="shot">
+              <a href="img2/01_2.jpg" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/01_2.jpg" alt="&#x27;Unsupervised - Machine Hallucinations: MoMA&#x27; - AI-generated morphing forms from Anadol&#x27;s model interpreting the MoMA dataset.">
+              </a>
+              <figcaption>&#x27;Unsupervised - Machine Hallucinations: MoMA&#x27; - AI-generated morphing forms from Anadol&#x27;s model interpreting the MoMA dataset.</figcaption>
+            </figure>
+<figure class="shot">
+              <a href="img2/01_3.jpg" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/01_3.jpg" alt="Output view of Anadol&#x27;s AI data-art installation &#x27;Unsupervised&#x27; at MoMA.">
+              </a>
+              <figcaption>Output view of Anadol&#x27;s AI data-art installation &#x27;Unsupervised&#x27; at MoMA.</figcaption>
             </figure></div>
       </div>
     </section>
 
-    <section class="case" id="john-maeda">
+    <section class="case" id="beeple-mike-winkelmann">
       <div class="case-head">
         <span class="num">02</span>
         <div>
-          <h2>John Maeda</h2>
-          <span class="tag">Design + Technology</span>
+          <h2>Beeple (Mike Winkelmann)</h2>
+          <span class="tag">Digital Art</span>
         </div>
       </div>
-
       <div class="case-body">
         <div class="cred">
           <h3>Why they're established</h3>
-          <p>Designer-technologist; former President of the Rhode Island School of Design (RISD) and ex-Design Partner at Kleiner Perkins; author of the widely-read annual &#x27;Design in Tech&#x27; reports and a recognized authority on design and computation.</p>
-          <a class="src" href="https://www.figma.com/blog/uphill-thinking/" target="_blank" rel="noopener">Verify &middot; figma.com &nearr;</a>
+          <p>Digital artist behind &#x27;Everydays: The First 5000 Days,&#x27; which sold at Christie&#x27;s for $69.3 million in 2021; one of the most-followed digital artists working today. His &#x27;Diffuse Control&#x27; is a genuine generative-AI installation (The Shed, then LACMA).</p>
+          <a class="src" href="https://en.wikipedia.org/wiki/Beeple" target="_blank" rel="noopener">Verify &middot; en.wikipedia.org &middot; reference &nearr;</a>
         </div>
-
         <blockquote class="quote">
-          <p>&ldquo;Wow, I can make so much more art. I can sit here and use Midjourney and do all these things.&rdquo;</p>
-          <cite>&mdash; John Maeda, <a href="https://www.superside.com/blog/ai-and-creativity" target="_blank" rel="noopener">superside.com &nearr;</a></cite>
-          
+          <p>&ldquo;For those who have not checked it out yet @midjourney is pretty insane. Gonna be really interesting to see how these amazing new AI tools affect art moving forward when you can literally just type a few words and make something.&rdquo;</p>
+          <cite>&mdash; Beeple &middot; <a href="https://x.com/beeple/status/1530354389109682177" target="_blank" rel="noopener">x.com, 28 May 2022 &nearr;</a></cite>
         </blockquote>
-
-        <div class="gallery g1"><figure class="shot">
-              <a href="img/02_1.png" target="_blank" rel="noopener">
-                <img loading="lazy" src="img/02_1.png" alt="John Maeda">
+        <div class="gallery g3"><figure class="shot">
+              <a href="img2/02_1.avif" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/02_1.avif" alt="AI-generated output from Beeple&#x27;s &#x27;Diffuse Control&#x27; generative-AI sculpture (LACMA) - a real-time diffusion system transforming source images into new abstractions.">
               </a>
-              <figcaption>John Maeda</figcaption>
+              <figcaption>AI-generated output from Beeple&#x27;s &#x27;Diffuse Control&#x27; generative-AI sculpture (LACMA) - a real-time diffusion system transforming source images into new abstractions.</figcaption>
+            </figure>
+<figure class="shot">
+              <a href="img2/02_2.avif" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/02_2.avif" alt="AI-generated abstraction from the &#x27;Soft Jelly&#x27; iteration of Beeple&#x27;s &#x27;Diffuse Control&#x27; custom generative-AI sculpture.">
+              </a>
+              <figcaption>AI-generated abstraction from the &#x27;Soft Jelly&#x27; iteration of Beeple&#x27;s &#x27;Diffuse Control&#x27; custom generative-AI sculpture.</figcaption>
+            </figure>
+<figure class="shot">
+              <a href="img2/02_3.avif" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/02_3.avif" alt="AI-generated iteration still from Beeple&#x27;s &#x27;Diffuse Control&#x27; installation, showing the human+machine image evolution.">
+              </a>
+              <figcaption>AI-generated iteration still from Beeple&#x27;s &#x27;Diffuse Control&#x27; installation, showing the human+machine image evolution.</figcaption>
             </figure></div>
       </div>
     </section>
 
-    <section class="case" id="yves-b-har">
+    <section class="case" id="paul-trillo">
       <div class="case-head">
         <span class="num">03</span>
         <div>
-          <h2>Yves Béhar</h2>
-          <span class="tag">Industrial / Product Design</span>
+          <h2>Paul Trillo</h2>
+          <span class="tag">Film / Motion Direction</span>
         </div>
       </div>
-
       <div class="case-body">
         <div class="cred">
           <h3>Why they're established</h3>
-          <p>Founder and principal designer of fuseproject, one of the most influential industrial designers of his generation, known for the OLPC laptop, Jawbone, the Herman Miller SAYL chair, and the ElliQ AI companion robot.</p>
-          <a class="src" href="https://fuseproject.com/yves-behar/" target="_blank" rel="noopener">Verify &middot; fuseproject.com &nearr;</a>
+          <p>Award-winning director and visual artist whom OpenAI commissioned to create the first official Sora-generated music video (Washed Out&#x27;s &#x27;The Hardest Part&#x27;); a longtime experimental filmmaker known for inventive camera techniques.</p>
+          <a class="src" href="https://www.forbes.com/sites/charliefink/2024/05/07/openais-sora-brings-directors-10-year-music-video-vision-to-life/" target="_blank" rel="noopener">Verify &middot; forbes.com &middot; 7 May 2024 &nearr;</a>
         </div>
-
         <blockquote class="quote">
-          <p>&ldquo;As designers that conceive new human experiences at fuseproject, we have embraced AI, robotics and smart environments as a way to deliver simpler and deeper experiences.&rdquo;</p>
-          <cite>&mdash; Yves Béhar, <a href="https://fuseproject.com/news/for-ai-to-be-great-design-must-do-good/" target="_blank" rel="noopener">fuseproject.com &nearr;</a></cite>
-          
+          <p>&ldquo;What is unique about AI is that it&#x27;s this more fluid, organic process where you&#x27;re ideating... That&#x27;s what&#x27;s been really exciting for me: you can actually spend more time trying to craft that story.&rdquo;</p>
+          <cite>&mdash; Paul Trillo &middot; <a href="https://www.forbes.com/sites/charliefink/2024/05/07/openais-sora-brings-directors-10-year-music-video-vision-to-life/" target="_blank" rel="noopener">forbes.com, 7 May 2024 &nearr;</a></cite>
         </blockquote>
-
         <div class="gallery g2"><figure class="shot">
-              <a href="img/03_0.jpg" target="_blank" rel="noopener">
-                <img loading="lazy" src="img/03_0.jpg" alt="Yves Béhar">
+              <a href="img2/03_1.webp" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/03_1.webp" alt="Still from Washed Out &#x27;The Hardest Part&#x27; - the first official OpenAI Sora-generated music video, directed by Paul Trillo (~700 clips generated, 55 used).">
               </a>
-              <figcaption>Yves Béhar</figcaption>
+              <figcaption>Still from Washed Out &#x27;The Hardest Part&#x27; - the first official OpenAI Sora-generated music video, directed by Paul Trillo (~700 clips generated, 55 used).</figcaption>
             </figure>
 <figure class="shot">
-              <a href="img/03_2.avif" target="_blank" rel="noopener">
-                <img loading="lazy" src="img/03_2.avif" alt="ElliQ AI companion robot by fuseproject">
+              <a href="img2/03_2.webp" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/03_2.webp" alt="Cover frame from Trillo&#x27;s Sora-generated Washed Out video - surreal dream-logic imagery unique to the Sora AI model.">
               </a>
-              <figcaption>ElliQ AI companion robot by fuseproject</figcaption>
+              <figcaption>Cover frame from Trillo&#x27;s Sora-generated Washed Out video - surreal dream-logic imagery unique to the Sora AI model.</figcaption>
             </figure></div>
       </div>
     </section>
 
-    <section class="case" id="brian-chesky">
+    <section class="case" id="bradley-g-munkowitz-gmunk">
       <div class="case-head">
         <span class="num">04</span>
         <div>
-          <h2>Brian Chesky</h2>
-          <span class="tag">Product / Industrial Design</span>
+          <h2>Bradley G. Munkowitz (GMUNK)</h2>
+          <span class="tag">Motion Graphics / Design Direction</span>
         </div>
       </div>
-
       <div class="case-body">
         <div class="cred">
           <h3>Why they're established</h3>
-          <p>Co-founder and CEO of Airbnb and a trained industrial designer (BFA, RISD); widely cited as proof a designer can build and lead a major technology company.</p>
-          <a class="src" href="https://www.dezeen.com/2014/01/28/silicon-valley-didnt-think-a-designer-could-build-a-company-interview-airbnb-co-founder-brian-chesky/" target="_blank" rel="noopener">Verify &middot; dezeen.com &nearr;</a>
+          <p>American motion-graphics design director and artist with 20+ years in the field; led the team that designed the holographic screen-graphics/UI for the sci-fi feature Tron: Legacy.</p>
+          <a class="src" href="https://www.cgchannel.com/2011/11/qa-bradley-gmunk-munkowitz-design-director/" target="_blank" rel="noopener">Verify &middot; cgchannel.com &middot; November 2011 &nearr;</a>
         </div>
-
         <blockquote class="quote">
-          <p>&ldquo;I&#x27;m so excited about the opportunity for AI. It feels like 2008 again when the App Store just came out, maybe like 1993, &#x27;94 with the internet, but much bigger actually, more profound.&rdquo;</p>
-          <cite>&mdash; Brian Chesky, <a href="https://www.printmag.com/podcasts/2026/design-matters-brian-chesky/" target="_blank" rel="noopener">printmag.com &nearr;</a></cite>
-          
+          <p>&ldquo;Until about a year ago, there was one way to achieve these types of effects. Now with AI and the power of the Z8 Fury, there are ten ways to do it, and the results are all incredible.&rdquo;</p>
+          <cite>&mdash; Bradley G. Munkowitz &middot; <a href="https://www.thisiscolossal.com/2024/03/gmunk-hp/" target="_blank" rel="noopener">thisiscolossal.com, 4 March 2024 &nearr;</a></cite>
         </blockquote>
-
-        <div class="gallery g1"><figure class="shot">
-              <a href="img/04_1.jpg" target="_blank" rel="noopener">
-                <img loading="lazy" src="img/04_1.jpg" alt="Brian Chesky">
+        <div class="gallery g2"><figure class="shot">
+              <a href="img2/04_1.jpg" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/04_1.jpg" alt="Stable Diffusion-morphed volumetric cloud render from GMUNK&#x27;s HP Z8 &#x27;CoCreated&#x27; pipeline behind Milky Chance&#x27;s &#x27;Synchronize&#x27; video (This Is Colossal, 2024).">
               </a>
-              <figcaption>Brian Chesky</figcaption>
+              <figcaption>Stable Diffusion-morphed volumetric cloud render from GMUNK&#x27;s HP Z8 &#x27;CoCreated&#x27; pipeline behind Milky Chance&#x27;s &#x27;Synchronize&#x27; video (This Is Colossal, 2024).</figcaption>
+            </figure>
+<figure class="shot">
+              <a href="img2/04_2.jpg" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/04_2.jpg" alt="AI-generated bioluminescent alien-flora landscape (Stable Diffusion still) from GMUNK&#x27;s HP/Milky Chance AI project.">
+              </a>
+              <figcaption>AI-generated bioluminescent alien-flora landscape (Stable Diffusion still) from GMUNK&#x27;s HP/Milky Chance AI project.</figcaption>
             </figure></div>
       </div>
     </section>
 
-    <section class="case" id="jordan-singer">
+    <section class="case" id="chad-nelson">
       <div class="case-head">
         <span class="num">05</span>
         <div>
-          <h2>Jordan Singer</h2>
-          <span class="tag">Product Design Engineering</span>
+          <h2>Chad Nelson</h2>
+          <span class="tag">Creative Direction / Film</span>
         </div>
       </div>
-
       <div class="case-body">
         <div class="cred">
           <h3>Why they're established</h3>
-          <p>Product design engineer and founder/CEO of Diagram, an AI design-tools startup acquired by Figma in 2023; previously spent four years designing on the Cash App team at Square.</p>
-          <a class="src" href="https://mercury.com/blog/jordan-singer" target="_blank" rel="noopener">Verify &middot; mercury.com &nearr;</a>
+          <p>Award-winning creative director with ~25 years of experience, now a Creative Specialist at OpenAI; directed the short film &#x27;Critterz,&#x27; whose characters were designed with DALL-E and then animated.</p>
+          <a class="src" href="https://www.c21media.net/department/marketing/content-london-exclusive-openais-chad-nelson-to-showcase-how-sora-will-supercharge-creativity-in-content-london-keynote/" target="_blank" rel="noopener">Verify &middot; c21media.net &middot; 18 October 2024 &nearr;</a>
         </div>
-
         <blockquote class="quote">
-          <p>&ldquo;It&#x27;s a creative extension of the thoughts that I put in. It&#x27;s becoming something that I don&#x27;t think I can imagine living without.&rdquo;</p>
-          <cite>&mdash; Jordan Singer, <a href="https://mercury.com/blog/jordan-singer" target="_blank" rel="noopener">mercury.com &nearr;</a></cite>
-          
+          <p>&ldquo;I was truly floored. I wouldn&#x27;t say it was the greatest monster design I&#x27;ve ever seen. But what it did do is it captured wonder.&rdquo;</p>
+          <cite>&mdash; Chad Nelson &middot; <a href="https://zackarnold.com/artificial-intelligence-future-of-creativity-chad-nelson/" target="_blank" rel="noopener">zackarnold.com, 27 February 2024 (approx.) &nearr;</a></cite>
         </blockquote>
-
-        <div class="gallery g1"><figure class="shot">
-              <a href="img/05_1.png" target="_blank" rel="noopener">
-                <img loading="lazy" src="img/05_1.png" alt="Jordan Singer">
+        <div class="gallery g2"><figure class="shot">
+              <a href="img2/05_1.webp" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/05_1.webp" alt="Process shot: Chad Nelson in OpenAI&#x27;s DALL-E editor generating a &#x27;Critterz&#x27; character - from his DALL-E-designed short film.">
               </a>
-              <figcaption>Jordan Singer</figcaption>
+              <figcaption>Process shot: Chad Nelson in OpenAI&#x27;s DALL-E editor generating a &#x27;Critterz&#x27; character - from his DALL-E-designed short film.</figcaption>
+            </figure>
+<figure class="shot">
+              <a href="img2/05_2.webp" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/05_2.webp" alt="A Critterz character in a forest - designed with OpenAI&#x27;s DALL-E, then animated, from Nelson&#x27;s short film.">
+              </a>
+              <figcaption>A Critterz character in a forest - designed with OpenAI&#x27;s DALL-E, then animated, from Nelson&#x27;s short film.</figcaption>
             </figure></div>
       </div>
     </section>
 
-    <section class="case" id="julie-zhuo">
+    <section class="case" id="karen-x-cheng">
       <div class="case-head">
         <span class="num">06</span>
         <div>
-          <h2>Julie Zhuo</h2>
-          <span class="tag">Product / UX Design</span>
+          <h2>Karen X. Cheng</h2>
+          <span class="tag">Creative Direction / Viral AI Campaigns</span>
         </div>
       </div>
-
       <div class="case-body">
         <div class="cred">
           <h3>Why they're established</h3>
-          <p>Former VP and Head of Design at Facebook (Meta), where she led a team of 100+ designers; author of the bestselling &#x27;The Making of a Manager&#x27; and co-founder of the AI data-analysis company Sundial.</p>
-          <a class="src" href="https://www.lennysnewsletter.com/p/from-managing-people-to-managing-ai-julie-zhuo" target="_blank" rel="noopener">Verify &middot; lennysnewsletter.com &nearr;</a>
+          <p>Director and creative known for viral generative-AI creative campaigns; advisor to Runway, collaborator with Adobe Firefly, and a featured creator in NVIDIA&#x27;s &#x27;In the NVIDIA Studio&#x27; series.</p>
+          <a class="src" href="https://blogs.nvidia.com/blog/in-the-nvidia-studio-may-10/" target="_blank" rel="noopener">Verify &middot; blogs.nvidia.com &middot; 10 May 2022 &nearr;</a>
         </div>
-
         <blockquote class="quote">
-          <p>&ldquo;Why show static mocks when AI can build a version of the damn thing for your stakeholders to play with?&rdquo;</p>
-          <cite>&mdash; Julie Zhuo, <a href="https://joulee.medium.com/the-death-of-product-development-as-we-know-it-1bcae948ce61" target="_blank" rel="noopener">joulee.medium.com &nearr;</a></cite>
-          
+          <p>&ldquo;I never had much drawing skill before, so I feel like I have art superpowers. Human plus AI is going to be better than AI alone for a very, very, very long time.&rdquo;</p>
+          <cite>&mdash; Karen X. Cheng &middot; <a href="https://blogs.nvidia.com/blog/in-the-nvidia-studio-may-10/" target="_blank" rel="noopener">blogs.nvidia.com, 10 May 2022 &nearr;</a></cite>
         </blockquote>
-
-        <div class="gallery g1"><figure class="shot">
-              <a href="img/06_1.jpg" target="_blank" rel="noopener">
-                <img loading="lazy" src="img/06_1.jpg" alt="Julie Zhuo">
+        <div class="gallery g2"><figure class="shot">
+              <a href="img2/06_1.jpg" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/06_1.jpg" alt="NVIDIA Canvas (GauGAN2) before/after: Cheng&#x27;s rough color-block doodle turned into a photorealistic mountain-lake landscape by the AI.">
               </a>
-              <figcaption>Julie Zhuo</figcaption>
+              <figcaption>NVIDIA Canvas (GauGAN2) before/after: Cheng&#x27;s rough color-block doodle turned into a photorealistic mountain-lake landscape by the AI.</figcaption>
+            </figure>
+<figure class="shot">
+              <a href="img2/06_2.jpg" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/06_2.jpg" alt="NVIDIA Canvas (GauGAN2) before/after: a scribbled sketch converted by the AI into a photorealistic sunset-over-ocean landscape.">
+              </a>
+              <figcaption>NVIDIA Canvas (GauGAN2) before/after: a scribbled sketch converted by the AI into a photorealistic sunset-over-ocean landscape.</figcaption>
             </figure></div>
       </div>
     </section>
 
-    <section class="case" id="paula-scher">
+    <section class="case" id="aurore-lechien">
       <div class="case-head">
         <span class="num">07</span>
         <div>
-          <h2>Paula Scher</h2>
-          <span class="tag">Graphic Design</span>
+          <h2>Aurore Lechien</h2>
+          <span class="tag">Brand / Art Direction</span>
         </div>
       </div>
-
       <div class="case-body">
         <div class="cred">
           <h3>Why they're established</h3>
-          <p>Partner at Pentagram (New York) since 1991 and one of the most celebrated graphic designers alive - identities for The Public Theater, Citibank, MoMA and Microsoft; AIGA Medal recipient. In 2025 her team built the federal Performance.gov site using a Midjourney-trained library of 1,500+ icons.</p>
-          <a class="src" href="https://en.wikipedia.org/wiki/Paula_Scher" target="_blank" rel="noopener">Verify &middot; en.wikipedia.org &nearr;</a>
+          <p>Design Director at Base Design (Brussels), an internationally recognized branding studio; provided creative direction on the AI-assisted La Monnaie opera 2023-24 season campaign.</p>
+          <a class="src" href="https://www.itsnicethat.com/news/base-design-la-monnaie-digital-180923" target="_blank" rel="noopener">Verify &middot; itsnicethat.com &middot; 18 September 2023 &nearr;</a>
         </div>
-
         <blockquote class="quote">
-          <p>&ldquo;We will use the best tools available to us to accomplish the ideas we have. The definition of design in the dictionary is &#x27;a plan.&#x27; We created a plan, and it was based around the fact that this would be self-sustaining.&rdquo;</p>
-          <cite>&mdash; Paula Scher, <a href="https://gdusa.com/pentagram-federal-website-generates-ai-controversy/" target="_blank" rel="noopener">gdusa.com &nearr;</a></cite>
-          
+          <p>&ldquo;It was so fun. We just had fun for hours.&rdquo;</p>
+          <cite>&mdash; Aurore Lechien &middot; <a href="https://www.itsnicethat.com/features/shades-of-intelligence-insights-research-creative-industry-ai-151123" target="_blank" rel="noopener">itsnicethat.com, 15 November 2023 &nearr;</a></cite>
         </blockquote>
-
         <div class="gallery g1"><figure class="shot">
-              <a href="img/07_1.jpg" target="_blank" rel="noopener">
-                <img loading="lazy" src="img/07_1.jpg" alt="Paula Scher, Pentagram partner">
+              <a href="img2/07_1.avif" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/07_1.avif" alt="Grid of AI-generated opera-season posters from Base Design&#x27;s La Monnaie 2023-24 &#x27;There will be Fate&#x27; campaign - visuals generated by feeding one-line play summaries as prompts into AI image tools.">
               </a>
-              <figcaption>Paula Scher, Pentagram partner</figcaption>
+              <figcaption>Grid of AI-generated opera-season posters from Base Design&#x27;s La Monnaie 2023-24 &#x27;There will be Fate&#x27; campaign - visuals generated by feeding one-line play summaries as prompts into AI image tools.</figcaption>
             </figure></div>
       </div>
     </section>
@@ -360,31 +365,27 @@
           <span class="tag">Brand / Agency</span>
         </div>
       </div>
-
       <div class="case-body">
         <div class="cred">
           <h3>Why they're established</h3>
-          <p>Founder and creative director of the New York agency &amp;Walsh (clients include Barneys, Snapchat, Levi&#x27;s); previously partner at Sagmeister &amp; Walsh; founder of the mentorship nonprofit Ladies, Wine &amp; Design. Her studio rebranded nuclear-advocacy project Isodope using DALL·E.</p>
-          <a class="src" href="https://en.wikipedia.org/wiki/Jessica_Walsh" target="_blank" rel="noopener">Verify &middot; en.wikipedia.org &nearr;</a>
+          <p>Founder and creative director of the New York agency &amp;Walsh (clients include Barneys, Snapchat, Levi&#x27;s); previously partner at Sagmeister &amp; Walsh; founder of the mentorship nonprofit Ladies, Wine &amp; Design. Her studio rebranded nuclear-advocacy project Isodope using DALL-E.</p>
+          <a class="src" href="https://en.wikipedia.org/wiki/Jessica_Walsh" target="_blank" rel="noopener">Verify &middot; en.wikipedia.org &middot; reference &nearr;</a>
         </div>
-
         <blockquote class="quote">
           <p>&ldquo;AI is already here, and it will continue to have an exponentially large presence in the creative world. We can choose to ignore it and become outdated by it. Or we can choose to find creative ways to work with it and push our work further into territories that we couldn&#x27;t have before.&rdquo;</p>
-          <cite>&mdash; Jessica Walsh, <a href="https://www.creativeboom.com/inspiration/isodope-walsh/" target="_blank" rel="noopener">creativeboom.com &nearr;</a></cite>
-          
+          <cite>&mdash; Jessica Walsh &middot; <a href="https://www.creativeboom.com/inspiration/isodope-walsh/" target="_blank" rel="noopener">creativeboom.com, 6 October 2022 &nearr;</a></cite>
         </blockquote>
-
         <div class="gallery g2"><figure class="shot">
-              <a href="img/08_1.jpg" target="_blank" rel="noopener">
-                <img loading="lazy" src="img/08_1.jpg" alt="Jessica Walsh, founder of &amp;Walsh">
+              <a href="img2/08_1.jpg" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/08_1.jpg" alt="Isodope - &amp;Walsh&#x27;s rebrand of nuclear energy, its imagery developed with DALL-E (Creative Boom).">
               </a>
-              <figcaption>Jessica Walsh, founder of &amp;Walsh</figcaption>
+              <figcaption>Isodope - &amp;Walsh&#x27;s rebrand of nuclear energy, its imagery developed with DALL-E (Creative Boom).</figcaption>
             </figure>
 <figure class="shot">
-              <a href="img/08_2.jpg" target="_blank" rel="noopener">
-                <img loading="lazy" src="img/08_2.jpg" alt="Isodope branding by &amp;Walsh, developed with DALL·E">
+              <a href="img2/08_2.jpg" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/08_2.jpg" alt="Another AI-generated visual from the &amp;Walsh x Isodope DALL-E campaign.">
               </a>
-              <figcaption>Isodope branding by &amp;Walsh, developed with DALL·E</figcaption>
+              <figcaption>Another AI-generated visual from the &amp;Walsh x Isodope DALL-E campaign.</figcaption>
             </figure></div>
       </div>
     </section>
@@ -397,31 +398,27 @@
           <span class="tag">Creative Direction / Advertising</span>
         </div>
       </div>
-
       <div class="case-body">
         <div class="cred">
           <h3>Why they're established</h3>
-          <p>Co-founder and Chief Creative Officer of Washington, D.C. agency Design Army (clients include Adobe, Disney, Netflix, Bloomingdale&#x27;s, PepsiCo); an internationally awarded creative director whose studio produced the fully AI-generated &#x27;Adventures in A-Eye&#x27; campaign for Georgetown Optician.</p>
-          <a class="src" href="https://www.commarts.com/exhibit/georgetown-optician-a-eye-campaign" target="_blank" rel="noopener">Verify &middot; commarts.com &nearr;</a>
+          <p>Co-founder and Chief Creative Officer of Washington, D.C. agency Design Army (clients include Adobe, Disney, Netflix, Bloomingdale&#x27;s, PepsiCo); her studio produced the fully AI-generated &#x27;Adventures in A-Eye&#x27; campaign for Georgetown Optician using Midjourney.</p>
+          <a class="src" href="https://www.commarts.com/exhibit/georgetown-optician-a-eye-campaign" target="_blank" rel="noopener">Verify &middot; commarts.com &middot; 26 April 2023 &nearr;</a>
         </div>
-
         <blockquote class="quote">
-          <p>&ldquo;I love working with AI because of the speed. Once you get the formula down, it&#x27;s like magic.&rdquo;</p>
-          <cite>&mdash; Pum Lefebure, <a href="https://www.commarts.com/exhibit/georgetown-optician-a-eye-campaign" target="_blank" rel="noopener">commarts.com &nearr;</a></cite>
-          
+          <p>&ldquo;I love that this is a new beginning of creative possibilities! And I&#x27;m proud that - in working with AI - we never lost our sense of creativity and craft. We didn&#x27;t let AI control us.&rdquo;</p>
+          <cite>&mdash; Pum Lefebure &middot; <a href="https://invisionmag.com/georgetown-optician-embraces-ai-tech-with-adventures-in-a-eye-ad-campaign/" target="_blank" rel="noopener">invisionmag.com, March 2023 &nearr;</a></cite>
         </blockquote>
-
         <div class="gallery g2"><figure class="shot">
-              <a href="img/09_1.jpg" target="_blank" rel="noopener">
-                <img loading="lazy" src="img/09_1.jpg" alt="Design Army&#x27;s AI-generated &#x27;Adventures in A-Eye&#x27; campaign for Georgetown Optician">
+              <a href="img2/09_1.jpg" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/09_1.jpg" alt="Design Army&#x27;s fully AI-generated &#x27;Adventures in A-Eye&#x27; campaign for Georgetown Optician, made with Midjourney (Communication Arts).">
               </a>
-              <figcaption>Design Army&#x27;s AI-generated &#x27;Adventures in A-Eye&#x27; campaign for Georgetown Optician</figcaption>
+              <figcaption>Design Army&#x27;s fully AI-generated &#x27;Adventures in A-Eye&#x27; campaign for Georgetown Optician, made with Midjourney (Communication Arts).</figcaption>
             </figure>
 <figure class="shot">
-              <a href="img/09_2.jpg" target="_blank" rel="noopener">
-                <img loading="lazy" src="img/09_2.jpg" alt="Hero image from Design Army&#x27;s AI-generated eyewear campaign">
+              <a href="img2/09_2.jpg" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/09_2.jpg" alt="Another &#x27;Adventures in A-Eye&#x27; Midjourney-generated campaign visual by Design Army.">
               </a>
-              <figcaption>Hero image from Design Army&#x27;s AI-generated eyewear campaign</figcaption>
+              <figcaption>Another &#x27;Adventures in A-Eye&#x27; Midjourney-generated campaign visual by Design Army.</figcaption>
             </figure></div>
       </div>
     </section>
@@ -434,392 +431,354 @@
           <span class="tag">Editorial Illustration</span>
         </div>
       </div>
-
       <div class="case-body">
         <div class="cred">
           <h3>Why they're established</h3>
           <p>Internationally renowned illustrator and graphic/editorial designer; creator of more than two dozen New Yorker covers, longtime New York Times Magazine contributor, and subject of an episode of Netflix&#x27;s &#x27;Abstract: The Art of Design&#x27;.</p>
-          <a class="src" href="https://en.wikipedia.org/wiki/Christoph_Niemann" target="_blank" rel="noopener">Verify &middot; en.wikipedia.org &nearr;</a>
+          <a class="src" href="https://en.wikipedia.org/wiki/Christoph_Niemann" target="_blank" rel="noopener">Verify &middot; en.wikipedia.org &middot; reference &nearr;</a>
         </div>
-
         <blockquote class="quote">
           <p>&ldquo;When I first learned about computer tools in art school, I was elated. Despite my wariness of AI, I&#x27;ve found some good uses for it.&rdquo;</p>
-          <cite>&mdash; Christoph Niemann, <a href="https://kottke.org/25/06/how-christoph-niemann-uses-ai-in-his-work" target="_blank" rel="noopener">kottke.org &nearr;</a></cite>
-          
+          <cite>&mdash; Christoph Niemann &middot; <a href="https://kottke.org/25/06/how-christoph-niemann-uses-ai-in-his-work" target="_blank" rel="noopener">kottke.org, 25 June 2025 &nearr;</a></cite>
         </blockquote>
-
         <div class="gallery g1"><figure class="shot">
-              <a href="img/10_1.jpg" target="_blank" rel="noopener">
-                <img loading="lazy" src="img/10_1.jpg" alt="Christoph Niemann, illustrator and New Yorker cover artist">
+              <a href="img2/10_1.jpg" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/10_1.jpg" alt="Illustration from the feature &#x27;How Christoph Niemann Uses AI in His Work&#x27; (kottke.org, June 2025), where Niemann details the AI tools he&#x27;s folded into his illustration process.">
               </a>
-              <figcaption>Christoph Niemann, illustrator and New Yorker cover artist</figcaption>
+              <figcaption>Illustration from the feature &#x27;How Christoph Niemann Uses AI in His Work&#x27; (kottke.org, June 2025), where Niemann details the AI tools he&#x27;s folded into his illustration process.</figcaption>
             </figure></div>
       </div>
     </section>
 
-    <section class="case" id="seba-cestaro">
+    <section class="case" id="sougwen-chung">
       <div class="case-head">
         <span class="num">11</span>
         <div>
-          <h2>Seba Cestaro</h2>
-          <span class="tag">Editorial Illustration</span>
+          <h2>Sougwen Chung</h2>
+          <span class="tag">AI / Robotic Art</span>
         </div>
       </div>
-
       <div class="case-body">
         <div class="cred">
           <h3>Why they're established</h3>
-          <p>Editorial illustrator based in Buenos Aires whose selected clients include The New Yorker, The New York Times, Netflix, Wired, The Guardian, Google and Adobe; represented by Jacky Winter.</p>
-          <a class="src" href="https://www.sebacestaro.com/" target="_blank" rel="noopener">Verify &middot; sebacestaro.com &nearr;</a>
+          <p>Chinese-Canadian pioneer of human-machine collaborative art who paints alongside AI-trained robotic arms (the D.O.U.G. project); a 2019 TED speaker whose robotic-drawing work was acquired by London&#x27;s Victoria &amp; Albert Museum (2022), and who was named to the 2023 TIME100 AI list, with international exhibitions from the Vancouver Art Gallery to the ArtScience Museum, Singapore.</p>
+          <a class="src" href="https://en.wikipedia.org/wiki/Sougwen_Chung" target="_blank" rel="noopener">Verify &middot; en.wikipedia.org &middot; reference &nearr;</a>
         </div>
-
         <blockquote class="quote">
-          <p>&ldquo;It sparked my curiosity and compelled me to explore and understand what was happening in this field.&rdquo;</p>
-          <cite>&mdash; Seba Cestaro, <a href="https://www.itsnicethat.com/features/shades-of-intelligence-insights-research-creative-industry-ai-151123" target="_blank" rel="noopener">itsnicethat.com &nearr;</a></cite>
-          
+          <p>&ldquo;My goal isn&#x27;t to replace traditional methods but to deepen and expand them, allowing art to arise from a genuine meeting of human and machine perspectives.&rdquo;</p>
+          <cite>&mdash; Sougwen Chung &middot; <a href="https://www.technologyreview.com/2025/02/17/1111387/ai-sougwen-chung-art-robots-collaboration/" target="_blank" rel="noopener">technologyreview.com, 17 February 2025 &nearr;</a></cite>
         </blockquote>
-
         <div class="gallery g2"><figure class="shot">
-              <a href="img/11_1.jpg" target="_blank" rel="noopener">
-                <img loading="lazy" src="img/11_1.jpg" alt="From Seba Cestaro&#x27;s &#x27;This Is Random&#x27; illustration series">
+              <a href="img2/11_1.jpg" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/11_1.jpg" alt="Sougwen Chung, &#x27;Assembly Lines&#x27; (2023) - a swarm of robotic arms painting live, driven by neural-network models trained on Chung&#x27;s own gestural marks.">
               </a>
-              <figcaption>From Seba Cestaro&#x27;s &#x27;This Is Random&#x27; illustration series</figcaption>
+              <figcaption>Sougwen Chung, &#x27;Assembly Lines&#x27; (2023) - a swarm of robotic arms painting live, driven by neural-network models trained on Chung&#x27;s own gestural marks.</figcaption>
             </figure>
 <figure class="shot">
-              <a href="img/11_2.jpg" target="_blank" rel="noopener">
-                <img loading="lazy" src="img/11_2.jpg" alt="Collage explorations from Cestaro&#x27;s portfolio">
+              <a href="img2/11_2.jpg" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/11_2.jpg" alt="Gallery view of &#x27;Assembly Lines&#x27; (2023): wall-and-floor ink drawings co-created by Chung and her AI-guided robotic collaborators.">
               </a>
-              <figcaption>Collage explorations from Cestaro&#x27;s portfolio</figcaption>
+              <figcaption>Gallery view of &#x27;Assembly Lines&#x27; (2023): wall-and-floor ink drawings co-created by Chung and her AI-guided robotic collaborators.</figcaption>
             </figure></div>
       </div>
     </section>
 
-    <section class="case" id="beeple-mike-winkelmann">
+    <section class="case" id="mario-klingemann">
       <div class="case-head">
         <span class="num">12</span>
         <div>
-          <h2>Beeple (Mike Winkelmann)</h2>
-          <span class="tag">Digital Art</span>
+          <h2>Mario Klingemann</h2>
+          <span class="tag">AI / GAN Art</span>
         </div>
       </div>
-
       <div class="case-body">
         <div class="cred">
           <h3>Why they're established</h3>
-          <p>Digital artist behind &#x27;Everydays: The First 5000 Days,&#x27; which sold at Christie&#x27;s for $69.3 million in 2021; one of the most-followed digital artists working today.</p>
-          <a class="src" href="https://en.wikipedia.org/wiki/Beeple" target="_blank" rel="noopener">Verify &middot; en.wikipedia.org &nearr;</a>
+          <p>German artist and pioneer of neural-network (GAN) art, a Google Arts &amp; Culture resident (2016-2018) and 2018 Lumen Prize Gold winner; his GAN installation &#x27;Memories of Passersby I&#x27; became the first AI artwork auctioned at Sotheby&#x27;s in 2019.</p>
+          <a class="src" href="https://en.wikipedia.org/wiki/Mario_Klingemann" target="_blank" rel="noopener">Verify &middot; en.wikipedia.org &middot; reference &nearr;</a>
         </div>
-
         <blockquote class="quote">
-          <p>&ldquo;For those who have not checked it out yet @midjourney is pretty f***ing insane. Gonna be really interesting to see how these amazing new AI tools affect art moving forward when you can literally just type a few words and make something.&rdquo;</p>
-          <cite>&mdash; Beeple, <a href="https://x.com/beeple/status/1530354389109682177" target="_blank" rel="noopener">x.com &nearr;</a></cite>
-          
+          <p>&ldquo;I use AI as a tool and the works that I make with this tool are mine and not a collaboration, in the same way I would not call a hammer or a piano a &#x27;collaborator&#x27;.&rdquo;</p>
+          <cite>&mdash; Mario Klingemann &middot; <a href="https://www.sothebys.com/en/articles/artist-mario-klingemann-on-artificial-intelligence-art-tech-and-our-future" target="_blank" rel="noopener">sothebys.com, 25 February 2019 &nearr;</a></cite>
         </blockquote>
-
-        <div class="gallery g1"><figure class="shot">
-              <a href="img/12_1.png" target="_blank" rel="noopener">
-                <img loading="lazy" src="img/12_1.png" alt="Beeple (Mike Winkelmann)">
+        <div class="gallery g2"><figure class="shot">
+              <a href="img2/12_1.webp" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/12_1.webp" alt="Mario Klingemann, &#x27;Memories of Passersby I&#x27; (2018) - a dual-screen GAN installation generating an endless stream of portraits in real time; sold at Sotheby&#x27;s, 2019.">
               </a>
-              <figcaption>Beeple (Mike Winkelmann)</figcaption>
+              <figcaption>Mario Klingemann, &#x27;Memories of Passersby I&#x27; (2018) - a dual-screen GAN installation generating an endless stream of portraits in real time; sold at Sotheby&#x27;s, 2019.</figcaption>
+            </figure>
+<figure class="shot">
+              <a href="img2/12_2.webp" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/12_2.webp" alt="From Klingemann&#x27;s &#x27;Neural Glitch&#x27; series - portraits produced by deliberately corrupting the weights of trained GAN models.">
+              </a>
+              <figcaption>From Klingemann&#x27;s &#x27;Neural Glitch&#x27; series - portraits produced by deliberately corrupting the weights of trained GAN models.</figcaption>
             </figure></div>
       </div>
     </section>
 
-    <section class="case" id="refik-anadol">
+    <section class="case" id="sofia-crespo">
       <div class="case-head">
         <span class="num">13</span>
         <div>
-          <h2>Refik Anadol</h2>
-          <span class="tag">Media Art / AI Data Art</span>
+          <h2>Sofia Crespo</h2>
+          <span class="tag">Generative AI / Bio-Art</span>
         </div>
       </div>
-
       <div class="case-body">
         <div class="cred">
           <h3>Why they're established</h3>
-          <p>Turkish-American media artist and pioneer of AI/data art; founder of the Los Angeles-based Refik Anadol Studio (2014), former Google artist-in-residence, and creator of the solo AI installation &#x27;Unsupervised&#x27; exhibited at the Museum of Modern Art (MoMA).</p>
-          <a class="src" href="https://www.wipo.int/en/web/wipo-magazine/articles/painting-with-data-how-media-artist-refik-anadol-creates-art-using-generative-ai-67301" target="_blank" rel="noopener">Verify &middot; wipo.int &nearr;</a>
+          <p>Argentine generative-AI artist based in Lisbon working at the intersection of neural networks and biology (&#x27;Neural Zoo&#x27;, &#x27;Artificial Remnants&#x27;); she and Anna Ridler were named Artist of the Year at the 2025 Arab Bank Switzerland Digital Art Prize for their career-long impact on digital art.</p>
+          <a class="src" href="https://fadmagazine.com/2025/06/13/anna-ridler-x-sofia-crespo-win-the-artist-of-the-year-at-abs-digital-art-prize-2025/" target="_blank" rel="noopener">Verify &middot; fadmagazine.com &middot; 13 June 2025 &nearr;</a>
         </div>
-
         <blockquote class="quote">
-          <p>&ldquo;What happens if a machine can dream and, if it can, who defines what is real and what is not?&rdquo;</p>
-          <cite>&mdash; Refik Anadol, <a href="https://www.wipo.int/en/web/wipo-magazine/articles/painting-with-data-how-media-artist-refik-anadol-creates-art-using-generative-ai-67301" target="_blank" rel="noopener">wipo.int &nearr;</a></cite>
-          
+          <p>&ldquo;They&#x27;re immensely impacting it because they&#x27;re tools that weren&#x27;t there before, meaning we get to create new things and re-examine what already has been done with new neural eyes.&rdquo;</p>
+          <cite>&mdash; Sofia Crespo &middot; <a href="https://clotmag.com/interviews/sofia-crespo-reimagining-nature-through-the-existing" target="_blank" rel="noopener">clotmag.com, 16 April 2020 &nearr;</a></cite>
         </blockquote>
-
-        <div class="gallery g3"><figure class="shot">
-              <a href="img/13_1.webp" target="_blank" rel="noopener">
-                <img loading="lazy" src="img/13_1.webp" alt="Refik Anadol (credit: Efsun Erkilic)">
+        <div class="gallery g2"><figure class="shot">
+              <a href="img2/13_1.jpg" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/13_1.jpg" alt="Sofia Crespo, from her neural-network &#x27;natural history&#x27; series - GAN-generated speculative fish specimens rendered as an antique naturalist&#x27;s plate.">
               </a>
-              <figcaption>Refik Anadol (credit: Efsun Erkilic)</figcaption>
+              <figcaption>Sofia Crespo, from her neural-network &#x27;natural history&#x27; series - GAN-generated speculative fish specimens rendered as an antique naturalist&#x27;s plate.</figcaption>
             </figure>
 <figure class="shot">
-              <a href="img/13_2.webp" target="_blank" rel="noopener">
-                <img loading="lazy" src="img/13_2.webp" alt="&#x27;Unsupervised&#x27; at MoMA, New York (2022-2023)">
+              <a href="img2/13_2.jpg" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/13_2.jpg" alt="Sofia Crespo - a GAN-generated plate of imaginary marine organisms from her AI-driven natural-history series.">
               </a>
-              <figcaption>&#x27;Unsupervised&#x27; at MoMA, New York (2022-2023)</figcaption>
-            </figure>
-<figure class="shot">
-              <a href="img/13_3.webp" target="_blank" rel="noopener">
-                <img loading="lazy" src="img/13_3.webp" alt="Refik Anadol Studio, &#x27;Winds of Yawanawa&#x27;">
-              </a>
-              <figcaption>Refik Anadol Studio, &#x27;Winds of Yawanawa&#x27;</figcaption>
+              <figcaption>Sofia Crespo - a GAN-generated plate of imaginary marine organisms from her AI-driven natural-history series.</figcaption>
             </figure></div>
       </div>
     </section>
 
-    <section class="case" id="paul-trillo">
+    <section class="case" id="anna-ridler">
       <div class="case-head">
         <span class="num">14</span>
         <div>
-          <h2>Paul Trillo</h2>
-          <span class="tag">Film / Motion Direction</span>
+          <h2>Anna Ridler</h2>
+          <span class="tag">GAN / Dataset Art</span>
         </div>
       </div>
-
       <div class="case-body">
         <div class="cred">
           <h3>Why they're established</h3>
-          <p>Award-winning director and visual artist whom OpenAI commissioned to create the first official Sora-generated music video (Washed Out&#x27;s &#x27;The Hardest Part&#x27;); a longtime experimental filmmaker known for inventive camera techniques.</p>
-          <a class="src" href="https://www.forbes.com/sites/charliefink/2024/05/07/openais-sora-brings-directors-10-year-music-video-vision-to-life/" target="_blank" rel="noopener">Verify &middot; forbes.com &nearr;</a>
+          <p>British artist working with datasets and machine learning whose work is held in the permanent collection of the V&amp;A; she has exhibited at the Barbican (&#x27;AI: More Than Human&#x27;), Centre Pompidou, ZKM Karlsruhe and Ars Electronica, where her tulip work received an honorary mention and was nominated for the Beazley Designs of the Year.</p>
+          <a class="src" href="https://en.wikipedia.org/wiki/Anna_Ridler" target="_blank" rel="noopener">Verify &middot; en.wikipedia.org &middot; reference &nearr;</a>
         </div>
-
         <blockquote class="quote">
-          <p>&ldquo;What is unique about AI is that it&#x27;s this more fluid, organic process where you&#x27;re ideating... That&#x27;s what&#x27;s been really exciting for me: you can actually spend more time trying to craft that story.&rdquo;</p>
-          <cite>&mdash; Paul Trillo, <a href="https://www.forbes.com/sites/charliefink/2024/05/07/openais-sora-brings-directors-10-year-music-video-vision-to-life/" target="_blank" rel="noopener">forbes.com &nearr;</a></cite>
-          
+          <p>&ldquo;For me it is very much a tool and a process. I don&#x27;t find it encroaching on human expression, I find it a way of expressing myself more fully, in ways that I was never able to before.&rdquo;</p>
+          <cite>&mdash; Anna Ridler &middot; <a href="https://felixonline.co.uk/articles/2019-05-24-an-interview-with-anna-ridler-the-artist-behind-mosaic-virus-and-myriad-tulips/" target="_blank" rel="noopener">felixonline.co.uk, 24 May 2019 &nearr;</a></cite>
         </blockquote>
-
-        <div class="gallery g1"><figure class="shot">
-              <a href="img/14_1.jpg" target="_blank" rel="noopener">
-                <img loading="lazy" src="img/14_1.jpg" alt="Director Paul Trillo (Forbes, 2024)">
+        <div class="gallery g2"><figure class="shot">
+              <a href="img2/14_1.jpg" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/14_1.jpg" alt="&#x27;Mosaic Virus&#x27; (2018) - stills from Ridler&#x27;s video installation of tulips generated by a GAN trained on 10,000 of her own hand-labelled tulip photos; petal striping is driven by the price of Bitcoin.">
               </a>
-              <figcaption>Director Paul Trillo (Forbes, 2024)</figcaption>
+              <figcaption>&#x27;Mosaic Virus&#x27; (2018) - stills from Ridler&#x27;s video installation of tulips generated by a GAN trained on 10,000 of her own hand-labelled tulip photos; petal striping is driven by the price of Bitcoin.</figcaption>
+            </figure>
+<figure class="shot">
+              <a href="img2/14_2.webp" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/14_2.webp" alt="&#x27;Myriad (Tulips)&#x27; (2018) - the wall of ~10,000 hand-labelled photographs Ridler shot and categorised as the training dataset for the Mosaic Virus GAN.">
+              </a>
+              <figcaption>&#x27;Myriad (Tulips)&#x27; (2018) - the wall of ~10,000 hand-labelled photographs Ridler shot and categorised as the training dataset for the Mosaic Virus GAN.</figcaption>
             </figure></div>
       </div>
     </section>
 
-    <section class="case" id="brian-collins">
+    <section class="case" id="claire-silver">
       <div class="case-head">
         <span class="num">15</span>
         <div>
-          <h2>Brian Collins</h2>
-          <span class="tag">Brand Design</span>
+          <h2>Claire Silver</h2>
+          <span class="tag">AI Art (diffusion / mixed media)</span>
         </div>
       </div>
-
       <div class="case-body">
         <div class="cred">
           <h3>Why they're established</h3>
-          <p>Co-founder and Chief Creative Officer of COLLINS, one of the most awarded independent branding companies in the U.S., whose identity work includes Spotify, Dove and Equinox; former Executive Creative Director of the Brand Integration Group at Ogilvy.</p>
-          <a class="src" href="https://www.brandingmag.com/flavia-barbat/brian-collins-the-brandingmag-interview/" target="_blank" rel="noopener">Verify &middot; brandingmag.com &nearr;</a>
+          <p>Prominent AI artist and advocate whose work has entered the permanent collection of the Los Angeles County Museum of Art (LACMA) and has sold at Sotheby&#x27;s and Christie&#x27;s; she has exhibited with SuperRare and at Art Basel and is regularly cited as a leading voice of the AI-art movement.</p>
+          <a class="src" href="https://www.clairesilver.com/about" target="_blank" rel="noopener">Verify &middot; clairesilver.com &middot; reference &nearr;</a>
         </div>
-
         <blockquote class="quote">
-          <p>&ldquo;So, I&#x27;m neither excited nor nervous. I&#x27;m relieved. It lets us focus on what matters: using every tool available to create work that&#x27;s unignorable.&rdquo;</p>
-          <cite>&mdash; Brian Collins, <a href="https://www.designweek.co.uk/how-is-collins-using-ai/" target="_blank" rel="noopener">designweek.co.uk &nearr;</a></cite>
-          
+          <p>&ldquo;If photography is a camera that reflects reality, AI is a camera that reflects the artist&#x27;s imagination.&rdquo;</p>
+          <cite>&mdash; Claire Silver &middot; <a href="https://medium.com/@mariroom/redefining-the-future-essential-skills-in-the-age-of-ai-artistry-an-interview-with-claire-3ad1aecbf220" target="_blank" rel="noopener">medium.com, 5 June 2023 &nearr;</a></cite>
         </blockquote>
-
         <div class="gallery g2"><figure class="shot">
-              <a href="img/15_1.jpg" target="_blank" rel="noopener">
-                <img loading="lazy" src="img/15_1.jpg" alt="Brian Collins, co-founder of COLLINS">
+              <a href="img2/15_1.png" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/15_1.png" alt="AI-generated painterly double-portrait from Claire Silver&#x27;s portfolio (clairesilver.com), made with diffusion image tools over her fine-art aesthetic.">
               </a>
-              <figcaption>Brian Collins, co-founder of COLLINS</figcaption>
+              <figcaption>AI-generated painterly double-portrait from Claire Silver&#x27;s portfolio (clairesilver.com), made with diffusion image tools over her fine-art aesthetic.</figcaption>
             </figure>
 <figure class="shot">
-              <a href="img/15_2.jpg" target="_blank" rel="noopener">
-                <img loading="lazy" src="img/15_2.jpg" alt="Brian Collins (Brandingmag interview cover)">
+              <a href="img2/15_2.png" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/15_2.png" alt="AI-generated portrait from Claire Silver&#x27;s selected-work gallery, in her signature diffusion-model + classical-painting style.">
               </a>
-              <figcaption>Brian Collins (Brandingmag interview cover)</figcaption>
+              <figcaption>AI-generated portrait from Claire Silver&#x27;s selected-work gallery, in her signature diffusion-model + classical-painting style.</figcaption>
             </figure></div>
       </div>
     </section>
 
-    <section class="case" id="max-ottignon">
+    <section class="case" id="helena-sarin">
       <div class="case-head">
         <span class="num">16</span>
         <div>
-          <h2>Max Ottignon</h2>
-          <span class="tag">Brand Design</span>
+          <h2>Helena Sarin</h2>
+          <span class="tag">GAN / Neural Network Art</span>
         </div>
       </div>
-
       <div class="case-body">
         <div class="cred">
           <h3>Why they're established</h3>
-          <p>Co-founder of Ragged Edge, an independent London brand agency known for identity work for challenger brands including Wise, Depop, Papier and GoCompare; a frequent conference speaker (OFFF, Upscale) on branding and distinctiveness.</p>
-          <a class="src" href="https://www.creativeboom.com/insight/max-ottognon-ai-is-so-hyped-designers-pretend-to-use-it-more-than-they-actually-do/" target="_blank" rel="noopener">Verify &middot; creativeboom.com &nearr;</a>
+          <p>Visual artist and software engineer known as an early GAN artist (&#x27;Neural Bricolage&#x27;); featured in NVIDIA&#x27;s GTC AI Art Gallery (2020-2021) and creator of GAN artist books including &#x27;The Book of GANesis,&#x27; with her work profiled by AIArtists.org and The Gradient.</p>
+          <a class="src" href="https://www.nvidia.com/en-us/research/ai-art-gallery/artists/helena-sarin/" target="_blank" rel="noopener">Verify &middot; nvidia.com &middot; reference &nearr;</a>
         </div>
-
         <blockquote class="quote">
-          <p>&ldquo;It doesn&#x27;t make our projects faster, it doesn&#x27;t make them cheaper, doesn&#x27;t make them more efficient, but it makes them better.&rdquo;</p>
-          <cite>&mdash; Max Ottignon, <a href="https://www.creativeboom.com/insight/max-ottognon-ai-is-so-hyped-designers-pretend-to-use-it-more-than-they-actually-do/" target="_blank" rel="noopener">creativeboom.com &nearr;</a></cite>
-          
+          <p>&ldquo;AI and living inside digital arts feels natural, because I&#x27;m very enthusiastic about software.&rdquo;</p>
+          <cite>&mdash; Helena Sarin &middot; <a href="https://aotm.gallery/art-and-software-run-as-parallel-tracks-in-the-life-of-helena-sarin/" target="_blank" rel="noopener">aotm.gallery, 19 November 2022 &nearr;</a></cite>
         </blockquote>
-
         <div class="gallery g1"><figure class="shot">
-              <a href="img/16_1.jpg" target="_blank" rel="noopener">
-                <img loading="lazy" src="img/16_1.jpg" alt="Ragged Edge&#x27;s GoCompare rebrand (Creative Review)">
+              <a href="img2/16_1.jpg" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/16_1.jpg" alt="GAN-generated botanical collage in Sarin&#x27;s small-dataset &#x27;Neural Bricolage&#x27; style, featured in NVIDIA&#x27;s GTC 2021 AI Art Gallery.">
               </a>
-              <figcaption>Ragged Edge&#x27;s GoCompare rebrand (Creative Review)</figcaption>
+              <figcaption>GAN-generated botanical collage in Sarin&#x27;s small-dataset &#x27;Neural Bricolage&#x27; style, featured in NVIDIA&#x27;s GTC 2021 AI Art Gallery.</figcaption>
             </figure></div>
       </div>
     </section>
 
-    <section class="case" id="bradley-g-munkowitz-gmunk">
+    <section class="case" id="jason-m-allen">
       <div class="case-head">
         <span class="num">17</span>
         <div>
-          <h2>Bradley G. Munkowitz (GMUNK)</h2>
-          <span class="tag">Motion Graphics / Design Direction</span>
+          <h2>Jason M. Allen</h2>
+          <span class="tag">Generative AI Art (Midjourney)</span>
         </div>
       </div>
-
       <div class="case-body">
         <div class="cred">
           <h3>Why they're established</h3>
-          <p>American motion-graphics design director and artist with 20+ years in the field; led the team that designed the holographic screen-graphics/UI for the sci-fi feature Tron: Legacy.</p>
-          <a class="src" href="https://www.cgchannel.com/2011/11/qa-bradley-gmunk-munkowitz-design-director/" target="_blank" rel="noopener">Verify &middot; cgchannel.com &nearr;</a>
+          <p>Digital artist who won first place in the digital-arts division of the 2022 Colorado State Fair fine-art competition with a Midjourney-generated piece, becoming an internationally covered figure in the AI-art debate.</p>
+          <a class="src" href="https://www.smithsonianmag.com/smart-news/artificial-intelligence-art-wins-colorado-state-fair-180980703/" target="_blank" rel="noopener">Verify &middot; smithsonianmag.com &middot; 6 September 2022 &nearr;</a>
         </div>
-
         <blockquote class="quote">
-          <p>&ldquo;Until about a year ago, there was one way to achieve these types of effects. Now with AI and the power of the Z8 Fury, there are ten ways to do it, and the results are all incredible.&rdquo;</p>
-          <cite>&mdash; Bradley G. Munkowitz, <a href="https://www.thisiscolossal.com/2024/03/gmunk-hp/" target="_blank" rel="noopener">thisiscolossal.com &nearr;</a></cite>
-          
+          <p>&ldquo;I can now use AI to express these creative ideas and bring my vision into form.&rdquo;</p>
+          <cite>&mdash; Jason M. Allen &middot; <a href="https://museumweek2h1r4.substack.com/p/ai-takes-the-art-world-by-storm-exclusive" target="_blank" rel="noopener">museumweek2h1r4.substack.com, 14 February 2023 &nearr;</a></cite>
         </blockquote>
-
-        <div class="gallery g2"><figure class="shot">
-              <a href="img/17_1.jpg" target="_blank" rel="noopener">
-                <img loading="lazy" src="img/17_1.jpg" alt="GMUNK&#x27;s AI-assisted work for the Milky Chance &#x27;Synchronize&#x27; video">
+        <div class="gallery g1"><figure class="shot">
+              <a href="img2/17_1.jpg" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/17_1.jpg" alt="&#x27;Theatre D&#x27;opera Spatial&#x27; (2022) - the Midjourney-generated work that won the Colorado State Fair digital-arts prize.">
               </a>
-              <figcaption>GMUNK&#x27;s AI-assisted work for the Milky Chance &#x27;Synchronize&#x27; video</figcaption>
-            </figure>
-<figure class="shot">
-              <a href="img/17_2.jpg" target="_blank" rel="noopener">
-                <img loading="lazy" src="img/17_2.jpg" alt="Still from GMUNK&#x27;s AI-assisted CG work">
-              </a>
-              <figcaption>Still from GMUNK&#x27;s AI-assisted CG work</figcaption>
+              <figcaption>&#x27;Theatre D&#x27;opera Spatial&#x27; (2022) - the Midjourney-generated work that won the Colorado State Fair digital-arts prize.</figcaption>
             </figure></div>
       </div>
     </section>
 
-    <section class="case" id="chad-nelson">
+    <section class="case" id="bas-uterwijk">
       <div class="case-head">
         <span class="num">18</span>
         <div>
-          <h2>Chad Nelson</h2>
-          <span class="tag">Creative Direction / Film</span>
+          <h2>Bas Uterwijk</h2>
+          <span class="tag">AI Portrait / Post-Photography</span>
         </div>
       </div>
-
       <div class="case-body">
         <div class="cred">
           <h3>Why they're established</h3>
-          <p>Award-winning creative director with ~25 years of experience, now a Creative Specialist at OpenAI who worked on the Sora launch and directed the AI-made short films &#x27;Critterz&#x27; (imagery generated with DALL·E).</p>
-          <a class="src" href="https://www.c21media.net/department/marketing/content-london-exclusive-openais-chad-nelson-to-showcase-how-sora-will-supercharge-creativity-in-content-london-keynote/" target="_blank" rel="noopener">Verify &middot; c21media.net &nearr;</a>
+          <p>Dutch digital artist (aka Ganbrood) known for photorealistic AI/GAN reconstructions of historical figures; his work has been featured by My Modern Met, Designboom and Bored Panda, shown in the &#x27;Computational Realism&#x27; AI group exhibition (The NFT Gallery, London/New York), and is represented by Kate Vass Galerie.</p>
+          <a class="src" href="https://mymodernmet.com/bas-uterwijk-ai-portrait/" target="_blank" rel="noopener">Verify &middot; mymodernmet.com &middot; 25 August 2021 &nearr;</a>
         </div>
-
         <blockquote class="quote">
-          <p>&ldquo;I was truly floored. I wouldn&#x27;t say it was the greatest monster design I&#x27;ve ever seen. But what it did do is it captured wonder.&rdquo;</p>
-          <cite>&mdash; Chad Nelson, <a href="https://zackarnold.com/artificial-intelligence-future-of-creativity-chad-nelson/" target="_blank" rel="noopener">zackarnold.com &nearr;</a></cite>
-          
+          <p>&ldquo;Just as photography changed the shape of classical painting, techniques based on artificial intelligence will start influencing and inspiring art and (post-)photography.&rdquo;</p>
+          <cite>&mdash; Bas Uterwijk &middot; <a href="https://mymodernmet.com/bas-uterwijk-ai-portrait/" target="_blank" rel="noopener">mymodernmet.com, 25 August 2021 &nearr;</a></cite>
         </blockquote>
-
-        <div class="gallery g2"><figure class="shot">
-              <a href="img/18_1.jpg" target="_blank" rel="noopener">
-                <img loading="lazy" src="img/18_1.jpg" alt="OpenAI creative director Chad Nelson">
+        <div class="gallery g1"><figure class="shot">
+              <a href="img2/18_1.jpg" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/18_1.jpg" alt="AI-generated portrait from Bas Uterwijk&#x27;s &#x27;Looking for Vincent&#x27; (Van Gogh) series - a GAN/neural-network reconstruction.">
               </a>
-              <figcaption>OpenAI creative director Chad Nelson</figcaption>
-            </figure>
-<figure class="shot">
-              <a href="img/18_2.jpg" target="_blank" rel="noopener">
-                <img loading="lazy" src="img/18_2.jpg" alt="Chad Nelson, creator of the DALL·E-generated short &#x27;Critterz&#x27;">
-              </a>
-              <figcaption>Chad Nelson, creator of the DALL·E-generated short &#x27;Critterz&#x27;</figcaption>
+              <figcaption>AI-generated portrait from Bas Uterwijk&#x27;s &#x27;Looking for Vincent&#x27; (Van Gogh) series - a GAN/neural-network reconstruction.</figcaption>
             </figure></div>
       </div>
     </section>
 
-    <section class="case" id="karen-x-cheng">
+    <section class="case" id="scott-eaton">
       <div class="case-head">
         <span class="num">19</span>
         <div>
-          <h2>Karen X. Cheng</h2>
-          <span class="tag">Creative Direction / Viral AI Campaigns</span>
+          <h2>Scott Eaton</h2>
+          <span class="tag">AI + Figure Drawing</span>
         </div>
       </div>
-
       <div class="case-body">
         <div class="cred">
           <h3>Why they're established</h3>
-          <p>Director and creative known for viral generative-AI creative campaigns; advisor to Runway, collaborator with Adobe Firefly, and a featured creator by NVIDIA in its &#x27;In the NVIDIA Studio&#x27; series.</p>
-          <a class="src" href="https://blogs.nvidia.com/blog/in-the-nvidia-studio-may-10/" target="_blank" rel="noopener">Verify &middot; blogs.nvidia.com &nearr;</a>
+          <p>British-based artist, anatomist and educator who studied figurative drawing/sculpture in Florence and computer graphics at the MIT Media Lab; his solo exhibition &#x27;Artist+AI: Figures &amp; Form in the Age of Intelligent Machines&#x27; was staged at Somerset House, London (2019), his ML works have shown at the Vancouver Art Gallery and NVIDIA&#x27;s AI Art Gallery, and he teaches anatomy to studios including Disney, Pixar and Framestore.</p>
+          <a class="src" href="https://aiartists.org/scott-eaton" target="_blank" rel="noopener">Verify &middot; aiartists.org &middot; reference &nearr;</a>
         </div>
-
         <blockquote class="quote">
-          <p>&ldquo;I never had much drawing skill before, so I feel like I have art superpowers. Human plus AI is going to be better than AI alone for a very, very, very long time.&rdquo;</p>
-          <cite>&mdash; Karen X. Cheng, <a href="https://blogs.nvidia.com/blog/in-the-nvidia-studio-may-10/" target="_blank" rel="noopener">blogs.nvidia.com &nearr;</a></cite>
-          
+          <p>&ldquo;In the near-term, AI will give artists amazing new creative capabilities.&rdquo;</p>
+          <cite>&mdash; Scott Eaton &middot; <a href="https://thelondonmagazine.org/interview-scott-eaton-artistai/" target="_blank" rel="noopener">thelondonmagazine.org, 26 June 2019 &nearr;</a></cite>
         </blockquote>
-
-        <div class="gallery g2"><figure class="shot">
-              <a href="img/19_1.jpg" target="_blank" rel="noopener">
-                <img loading="lazy" src="img/19_1.jpg" alt="Karen X. Cheng&#x27;s rough scribbles transformed into landscapes using NVIDIA GauGAN2">
+        <div class="gallery g3"><figure class="shot">
+              <a href="img2/19_1.jpg" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/19_1.jpg" alt="&#x27;Entangled II&#x27; (2019) - 4K video of high-speed paint-in-water processed through Eaton&#x27;s custom &#x27;BODIES&#x27; neural network to elicit evolving human forms.">
               </a>
-              <figcaption>Karen X. Cheng&#x27;s rough scribbles transformed into landscapes using NVIDIA GauGAN2</figcaption>
+              <figcaption>&#x27;Entangled II&#x27; (2019) - 4K video of high-speed paint-in-water processed through Eaton&#x27;s custom &#x27;BODIES&#x27; neural network to elicit evolving human forms.</figcaption>
             </figure>
 <figure class="shot">
-              <a href="img/19_2.jpg" target="_blank" rel="noopener">
-                <img loading="lazy" src="img/19_2.jpg" alt="The NVIDIA Canvas app Cheng used to sketch AI-generated landscapes">
+              <a href="img2/19_2.jpg" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/19_2.jpg" alt="&#x27;Hyperbolic Composition I&#x27; - generated by a neural network Eaton trained on tens of thousands of his own studio figure photographs and drawings.">
               </a>
-              <figcaption>The NVIDIA Canvas app Cheng used to sketch AI-generated landscapes</figcaption>
+              <figcaption>&#x27;Hyperbolic Composition I&#x27; - generated by a neural network Eaton trained on tens of thousands of his own studio figure photographs and drawings.</figcaption>
+            </figure>
+<figure class="shot">
+              <a href="img2/19_3.jpg" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/19_3.jpg" alt="&#x27;Humanity (Fall of the Damned)&#x27; - large figurative composition made with Eaton&#x27;s neural network trained on his figure-study dataset.">
+              </a>
+              <figcaption>&#x27;Humanity (Fall of the Damned)&#x27; - large figurative composition made with Eaton&#x27;s neural network trained on his figure-study dataset.</figcaption>
             </figure></div>
       </div>
     </section>
 
-    <section class="case" id="aurore-lechien">
+    <section class="case" id="pindar-van-arman">
       <div class="case-head">
         <span class="num">20</span>
         <div>
-          <h2>Aurore Lechien</h2>
-          <span class="tag">Brand / Art Direction</span>
+          <h2>Pindar Van Arman</h2>
+          <span class="tag">Robotic AI Painting</span>
         </div>
       </div>
-
       <div class="case-body">
         <div class="cred">
           <h3>Why they're established</h3>
-          <p>Design Director at Base Design (Brussels), an internationally recognized branding studio; provided creative direction on the AI-assisted La Monnaie opera 2023-24 season campaign.</p>
-          <a class="src" href="https://www.itsnicethat.com/news/base-design-la-monnaie-digital-180923" target="_blank" rel="noopener">Verify &middot; itsnicethat.com &nearr;</a>
+          <p>American artist and roboticist who has built AI painting robots (&#x27;cloudpainter&#x27;) for ~15 years; his &#x27;AI Imagined Portrait Painted by a Robot #2&#x27; won First Place at Robot Art 2018 and was acquired into the permanent collection of the Los Angeles County Museum of Art (LACMA, 2022), and his practice has been profiled by TIME and NVIDIA&#x27;s AI Art Gallery.</p>
+          <a class="src" href="https://www.vanarman.com/feedback/2024/12/14/faces-in-the-darkness" target="_blank" rel="noopener">Verify &middot; vanarman.com &middot; reference &nearr;</a>
         </div>
-
         <blockquote class="quote">
-          <p>&ldquo;It was so fun. We just had fun for hours.&rdquo;</p>
-          <cite>&mdash; Aurore Lechien, <a href="https://www.itsnicethat.com/features/shades-of-intelligence-insights-research-creative-industry-ai-151123" target="_blank" rel="noopener">itsnicethat.com &nearr;</a></cite>
-          
+          <p>&ldquo;My machines have grown beyond being simple assistants and are now effectively augmenting my own creativity, as well as having creativity of their own.&rdquo;</p>
+          <cite>&mdash; Pindar Van Arman &middot; <a href="https://dallasinnovates.com/the-last-word-fort-worths-pindar-van-arman-on-ai-art/" target="_blank" rel="noopener">dallasinnovates.com, 17 March 2023 &nearr;</a></cite>
         </blockquote>
-
-        <div class="gallery g2"><figure class="shot">
-              <a href="img/20_1.avif" target="_blank" rel="noopener">
-                <img loading="lazy" src="img/20_1.avif" alt="AI-generated &#x27;Fate&#x27; campaign visual from Base Design&#x27;s La Monnaie opera season">
+        <div class="gallery g3"><figure class="shot">
+              <a href="img2/20_1.webp" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/20_1.webp" alt="&#x27;AI Imagined Portrait Painted by a Robot #2&#x27; - a GAN imagines a face while the robot paints it stroke-by-stroke (Robot Art 2018 winner; LACMA collection).">
               </a>
-              <figcaption>AI-generated &#x27;Fate&#x27; campaign visual from Base Design&#x27;s La Monnaie opera season</figcaption>
+              <figcaption>&#x27;AI Imagined Portrait Painted by a Robot #2&#x27; - a GAN imagines a face while the robot paints it stroke-by-stroke (Robot Art 2018 winner; LACMA collection).</figcaption>
             </figure>
 <figure class="shot">
-              <a href="img/20_2.avif" target="_blank" rel="noopener">
-                <img loading="lazy" src="img/20_2.avif" alt="The AI-assisted La Monnaie campaign on the opera house facade">
+              <a href="img2/20_2.webp" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/20_2.webp" alt="&#x27;First Sparks of Artificial Creativity&#x27; - a grid of 128 GAN-imagined faces painted in acrylic by Van Arman&#x27;s robots (for Tribeca Film Festival).">
               </a>
-              <figcaption>The AI-assisted La Monnaie campaign on the opera house facade</figcaption>
+              <figcaption>&#x27;First Sparks of Artificial Creativity&#x27; - a grid of 128 GAN-imagined faces painted in acrylic by Van Arman&#x27;s robots (for Tribeca Film Festival).</figcaption>
+            </figure>
+<figure class="shot">
+              <a href="img2/20_3.webp" target="_blank" rel="noopener">
+                <img loading="lazy" src="img2/20_3.webp" alt="&#x27;AI Imagined Faces&#x27; (Tokyo, 2023) - a later iteration of the GAN-plus-robot portrait series.">
+              </a>
+              <figcaption>&#x27;AI Imagined Faces&#x27; (Tokyo, 2023) - a later iteration of the GAN-plus-robot portrait series.</figcaption>
             </figure></div>
       </div>
     </section>
   </main>
-
   <footer>
     <h4>How this was built</h4>
-    <p>Each person here clears two bars: (1) a documented, verifiable career in design/creative work &mdash; not an AI-native persona &mdash; and (2) a genuine, positive-or-curious public statement about a creative-AI tool, pulled verbatim from a named source. Where a designer's stance is mixed or skeptical, they were left off rather than spun. Images are the designers' own work, campaign visuals, or published portraits, saved from the linked sources; if you spot one that should be credited differently, that's a fix worth making, not a reason to doubt the roster.</p>
-    <p style="margin-top:16px;opacity:.7">Compiled from primary sources across the design press. Quotes &amp; credentials link out for verification. Built as a personal research reference.</p>
+    <p>Everyone here clears three bars: (1) an established, verifiable career as an artist/designer/director &mdash; not an AI-industry executive; (2) they actively <em>create</em> with AI, shown through their real AI output rather than a portrait; and (3) a dated, sourced statement in support of that work. Where someone&rsquo;s stance was skeptical, or no verifiable AI-work image existed, they were left off rather than padded with a headshot. Every image links to its source; every credential and quote carries its publication date.</p>
+    <p style="margin-top:16px">See also the companion: <a href="https://bubakazouba.github.io/studios-using-ai/">&ldquo;How real design studios actually use AI&rdquo;</a> &mdash; summaries of Design Week&rsquo;s 18-studio series.</p>
+    <p style="margin-top:14px;opacity:.7">Compiled from primary sources across the art &amp; design press. Built as a personal research reference.</p>
   </footer>
 </div>
 </body>

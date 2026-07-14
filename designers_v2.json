@@ -1,0 +1,398 @@
+[
+  {
+    "name": "Refik Anadol",
+    "domain": "Media Art / AI Data Art",
+    "credentials": "Turkish-American media artist and pioneer of AI/data art; founder of Refik Anadol Studio (2014), former Google artist-in-residence, and creator of the solo AI installation 'Unsupervised' exhibited at the Museum of Modern Art (MoMA).",
+    "credentials_source": "https://www.wipo.int/en/web/wipo-magazine/articles/painting-with-data-how-media-artist-refik-anadol-creates-art-using-generative-ai-67301",
+    "credentials_date": "1 December 2024",
+    "quote": "What happens if a machine can dream and, if it can, who defines what is real and what is not?",
+    "quote_source": "https://www.wipo.int/en/web/wipo-magazine/articles/painting-with-data-how-media-artist-refik-anadol-creates-art-using-generative-ai-67301",
+    "quote_date": "1 December 2024",
+    "ai_work_images": [
+      {
+        "url": "https://static.designboom.com/wp-content/uploads/2022/11/refik-anadol-unsupervised-moma-designboom-full-width.jpg",
+        "caption": "'Unsupervised' at MoMA - Anadol's ML model, trained on ~200 years of MoMA collection metadata, generating real-time AI visuals on a 24x24ft wall."
+      },
+      {
+        "url": "https://static.designboom.com/wp-content/uploads/2022/11/refik-anadol-unsupervised-moma-designboom-03.jpg",
+        "caption": "'Unsupervised - Machine Hallucinations: MoMA' - AI-generated morphing forms from Anadol's model interpreting the MoMA dataset."
+      },
+      {
+        "url": "https://static.designboom.com/wp-content/uploads/2022/11/refik-anadol-unsupervised-moma-designboom-06.jpg",
+        "caption": "Output view of Anadol's AI data-art installation 'Unsupervised' at MoMA."
+      }
+    ]
+  },
+  {
+    "name": "Beeple (Mike Winkelmann)",
+    "domain": "Digital Art",
+    "credentials": "Digital artist behind 'Everydays: The First 5000 Days,' which sold at Christie's for $69.3 million in 2021; one of the most-followed digital artists working today. His 'Diffuse Control' is a genuine generative-AI installation (The Shed, then LACMA).",
+    "credentials_source": "https://en.wikipedia.org/wiki/Beeple",
+    "credentials_date": "n/a - living reference",
+    "quote": "For those who have not checked it out yet @midjourney is pretty insane. Gonna be really interesting to see how these amazing new AI tools affect art moving forward when you can literally just type a few words and make something.",
+    "quote_source": "https://x.com/beeple/status/1530354389109682177",
+    "quote_date": "28 May 2022",
+    "ai_work_images": [
+      {
+        "url": "https://unframed.lacma.org/sites/default/files/field/image/251027_Beeple_Image%202.png",
+        "caption": "AI-generated output from Beeple's 'Diffuse Control' generative-AI sculpture (LACMA) - a real-time diffusion system transforming source images into new abstractions."
+      },
+      {
+        "url": "https://unframed.lacma.org/sites/default/files/field/image/image2.png",
+        "caption": "AI-generated abstraction from the 'Soft Jelly' iteration of Beeple's 'Diffuse Control' custom generative-AI sculpture."
+      },
+      {
+        "url": "https://unframed.lacma.org/sites/default/files/attachments/iteration.png",
+        "caption": "AI-generated iteration still from Beeple's 'Diffuse Control' installation, showing the human+machine image evolution."
+      }
+    ]
+  },
+  {
+    "name": "Paul Trillo",
+    "domain": "Film / Motion Direction",
+    "credentials": "Award-winning director and visual artist whom OpenAI commissioned to create the first official Sora-generated music video (Washed Out's 'The Hardest Part'); a longtime experimental filmmaker known for inventive camera techniques.",
+    "credentials_source": "https://www.forbes.com/sites/charliefink/2024/05/07/openais-sora-brings-directors-10-year-music-video-vision-to-life/",
+    "credentials_date": "7 May 2024",
+    "quote": "What is unique about AI is that it's this more fluid, organic process where you're ideating... That's what's been really exciting for me: you can actually spend more time trying to craft that story.",
+    "quote_source": "https://www.forbes.com/sites/charliefink/2024/05/07/openais-sora-brings-directors-10-year-music-video-vision-to-life/",
+    "quote_date": "7 May 2024",
+    "ai_work_images": [
+      {
+        "url": "https://ars.electronica.art/hope/files/2024/08/wo_hardest_part_still_01.jpg",
+        "caption": "Still from Washed Out 'The Hardest Part' - the first official OpenAI Sora-generated music video, directed by Paul Trillo (~700 clips generated, 55 used)."
+      },
+      {
+        "url": "https://ars.electronica.art/hope/files/2024/08/wo_hardest_part_cover.jpg",
+        "caption": "Cover frame from Trillo's Sora-generated Washed Out video - surreal dream-logic imagery unique to the Sora AI model."
+      }
+    ]
+  },
+  {
+    "name": "Bradley G. Munkowitz (GMUNK)",
+    "domain": "Motion Graphics / Design Direction",
+    "credentials": "American motion-graphics design director and artist with 20+ years in the field; led the team that designed the holographic screen-graphics/UI for the sci-fi feature Tron: Legacy.",
+    "credentials_source": "https://www.cgchannel.com/2011/11/qa-bradley-gmunk-munkowitz-design-director/",
+    "credentials_date": "November 2011",
+    "quote": "Until about a year ago, there was one way to achieve these types of effects. Now with AI and the power of the Z8 Fury, there are ten ways to do it, and the results are all incredible.",
+    "quote_source": "https://www.thisiscolossal.com/2024/03/gmunk-hp/",
+    "quote_date": "4 March 2024",
+    "ai_work_images": [
+      {
+        "url": "https://www.thisiscolossal.com/wp-content/uploads/2024/02/gmunk-1.jpg",
+        "caption": "Stable Diffusion-morphed volumetric cloud render from GMUNK's HP Z8 'CoCreated' pipeline behind Milky Chance's 'Synchronize' video (This Is Colossal, 2024)."
+      },
+      {
+        "url": "https://www.thisiscolossal.com/wp-content/uploads/2024/02/gmunk-3.jpg",
+        "caption": "AI-generated bioluminescent alien-flora landscape (Stable Diffusion still) from GMUNK's HP/Milky Chance AI project."
+      }
+    ]
+  },
+  {
+    "name": "Chad Nelson",
+    "domain": "Creative Direction / Film",
+    "credentials": "Award-winning creative director with ~25 years of experience, now a Creative Specialist at OpenAI; directed the short film 'Critterz,' whose characters were designed with DALL-E and then animated.",
+    "credentials_source": "https://www.c21media.net/department/marketing/content-london-exclusive-openais-chad-nelson-to-showcase-how-sora-will-supercharge-creativity-in-content-london-keynote/",
+    "credentials_date": "18 October 2024",
+    "quote": "I was truly floored. I wouldn't say it was the greatest monster design I've ever seen. But what it did do is it captured wonder.",
+    "quote_source": "https://zackarnold.com/artificial-intelligence-future-of-creativity-chad-nelson/",
+    "quote_date": "27 February 2024 (approx.)",
+    "ai_work_images": [
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/642e34cfcfc3b2214f84cb2c/dfa821a1-c5de-4647-8e99-3b4d72e092fc/Screen+Shot+2023-04-05+at+8.08.30+PM.png",
+        "caption": "Process shot: Chad Nelson in OpenAI's DALL-E editor generating a 'Critterz' character - from his DALL-E-designed short film."
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/642e34cfcfc3b2214f84cb2c/4ec96b17-442e-4495-8ec3-41bbe0e58525/Screen+Shot+2023-04-05+at+8.06.57+PM.png",
+        "caption": "A Critterz character in a forest - designed with OpenAI's DALL-E, then animated, from Nelson's short film."
+      }
+    ]
+  },
+  {
+    "name": "Karen X. Cheng",
+    "domain": "Creative Direction / Viral AI Campaigns",
+    "credentials": "Director and creative known for viral generative-AI creative campaigns; advisor to Runway, collaborator with Adobe Firefly, and a featured creator in NVIDIA's 'In the NVIDIA Studio' series.",
+    "credentials_source": "https://blogs.nvidia.com/blog/in-the-nvidia-studio-may-10/",
+    "credentials_date": "10 May 2022",
+    "quote": "I never had much drawing skill before, so I feel like I have art superpowers. Human plus AI is going to be better than AI alone for a very, very, very long time.",
+    "quote_source": "https://blogs.nvidia.com/blog/in-the-nvidia-studio-may-10/",
+    "quote_date": "10 May 2022",
+    "ai_work_images": [
+      {
+        "url": "https://blogs.nvidia.com/wp-content/uploads/2022/05/karenxcheng-2-1-672x360.jpg",
+        "caption": "NVIDIA Canvas (GauGAN2) before/after: Cheng's rough color-block doodle turned into a photorealistic mountain-lake landscape by the AI."
+      },
+      {
+        "url": "https://blogs.nvidia.com/wp-content/uploads/2022/05/karenxcheng-4-1-672x378.jpg",
+        "caption": "NVIDIA Canvas (GauGAN2) before/after: a scribbled sketch converted by the AI into a photorealistic sunset-over-ocean landscape."
+      }
+    ]
+  },
+  {
+    "name": "Aurore Lechien",
+    "domain": "Brand / Art Direction",
+    "credentials": "Design Director at Base Design (Brussels), an internationally recognized branding studio; provided creative direction on the AI-assisted La Monnaie opera 2023-24 season campaign.",
+    "credentials_source": "https://www.itsnicethat.com/news/base-design-la-monnaie-digital-180923",
+    "credentials_date": "18 September 2023",
+    "quote": "It was so fun. We just had fun for hours.",
+    "quote_source": "https://www.itsnicethat.com/features/shades-of-intelligence-insights-research-creative-industry-ai-151123",
+    "quote_date": "15 November 2023",
+    "ai_work_images": [
+      {
+        "url": "https://basedesign2.imgix.net/images/baseweb_asset_lamonnaiefate_01.avif?auto=format,compress&fit=max&w=2020",
+        "caption": "Grid of AI-generated opera-season posters from Base Design's La Monnaie 2023-24 'There will be Fate' campaign - visuals generated by feeding one-line play summaries as prompts into AI image tools."
+      }
+    ]
+  },
+  {
+    "name": "Jessica Walsh",
+    "domain": "Brand / Agency",
+    "credentials": "Founder and creative director of the New York agency &Walsh (clients include Barneys, Snapchat, Levi's); previously partner at Sagmeister & Walsh; founder of the mentorship nonprofit Ladies, Wine & Design. Her studio rebranded nuclear-advocacy project Isodope using DALL-E.",
+    "credentials_source": "https://en.wikipedia.org/wiki/Jessica_Walsh",
+    "credentials_date": "n/a - living reference",
+    "quote": "AI is already here, and it will continue to have an exponentially large presence in the creative world. We can choose to ignore it and become outdated by it. Or we can choose to find creative ways to work with it and push our work further into territories that we couldn't have before.",
+    "quote_source": "https://www.creativeboom.com/inspiration/isodope-walsh/",
+    "quote_date": "6 October 2022",
+    "ai_work_images": [
+      {
+        "url": "https://www.creativeboom.com/upload/articles/bd/bddb0c88810775bf4c5b4fd5997df1f2b3072eeb_800.jpg",
+        "caption": "Isodope - &Walsh's rebrand of nuclear energy, its imagery developed with DALL-E (Creative Boom)."
+      },
+      {
+        "url": "https://www.creativeboom.com/upload/articles/00/002490ec10711678cbc95a26d85f89366fab177e_944.jpg",
+        "caption": "Another AI-generated visual from the &Walsh x Isodope DALL-E campaign."
+      }
+    ]
+  },
+  {
+    "name": "Pum Lefebure",
+    "domain": "Creative Direction / Advertising",
+    "credentials": "Co-founder and Chief Creative Officer of Washington, D.C. agency Design Army (clients include Adobe, Disney, Netflix, Bloomingdale's, PepsiCo); her studio produced the fully AI-generated 'Adventures in A-Eye' campaign for Georgetown Optician using Midjourney.",
+    "credentials_source": "https://www.commarts.com/exhibit/georgetown-optician-a-eye-campaign",
+    "credentials_date": "26 April 2023",
+    "quote": "I love that this is a new beginning of creative possibilities! And I'm proud that - in working with AI - we never lost our sense of creativity and craft. We didn't let AI control us.",
+    "quote_source": "https://invisionmag.com/georgetown-optician-embraces-ai-tech-with-adventures-in-a-eye-ad-campaign/",
+    "quote_date": "March 2023",
+    "ai_work_images": [
+      {
+        "url": "https://image.commarts.com/images1/1/2/5/1/1/1152168_102_600_OTEyMzY0MTU4LTk2NDg2MDY4Mw_f.jpg",
+        "caption": "Design Army's fully AI-generated 'Adventures in A-Eye' campaign for Georgetown Optician, made with Midjourney (Communication Arts)."
+      },
+      {
+        "url": "https://invisionmag.com/wp-content/uploads/2023/03/Georgetown-A-Eye-1.jpg",
+        "caption": "Another 'Adventures in A-Eye' Midjourney-generated campaign visual by Design Army."
+      }
+    ]
+  },
+  {
+    "name": "Christoph Niemann",
+    "domain": "Editorial Illustration",
+    "credentials": "Internationally renowned illustrator and graphic/editorial designer; creator of more than two dozen New Yorker covers, longtime New York Times Magazine contributor, and subject of an episode of Netflix's 'Abstract: The Art of Design'.",
+    "credentials_source": "https://en.wikipedia.org/wiki/Christoph_Niemann",
+    "credentials_date": "n/a - living reference",
+    "quote": "When I first learned about computer tools in art school, I was elated. Despite my wariness of AI, I've found some good uses for it.",
+    "quote_source": "https://kottke.org/25/06/how-christoph-niemann-uses-ai-in-his-work",
+    "quote_date": "25 June 2025",
+    "ai_work_images": [
+      {
+        "url": "https://kottke.org/plus/misc/images/niemann-ai.jpg",
+        "caption": "Illustration from the feature 'How Christoph Niemann Uses AI in His Work' (kottke.org, June 2025), where Niemann details the AI tools he's folded into his illustration process."
+      }
+    ]
+  },
+  {
+    "name": "Sougwen Chung",
+    "domain": "AI / Robotic Art",
+    "credentials": "Chinese-Canadian pioneer of human-machine collaborative art who paints alongside AI-trained robotic arms (the D.O.U.G. project); a 2019 TED speaker whose robotic-drawing work was acquired by London's Victoria & Albert Museum (2022), and who was named to the 2023 TIME100 AI list, with international exhibitions from the Vancouver Art Gallery to the ArtScience Museum, Singapore.",
+    "credentials_source": "https://en.wikipedia.org/wiki/Sougwen_Chung",
+    "credentials_date": "n/a - living reference",
+    "quote": "My goal isn't to replace traditional methods but to deepen and expand them, allowing art to arise from a genuine meeting of human and machine perspectives.",
+    "quote_source": "https://www.technologyreview.com/2025/02/17/1111387/ai-sougwen-chung-art-robots-collaboration/",
+    "quote_date": "17 February 2025",
+    "ai_work_images": [
+      {
+        "url": "https://static.designboom.com/wp-content/uploads/2023/03/sougwen-chung-assembly-lines-designboom-4.jpg",
+        "caption": "Sougwen Chung, 'Assembly Lines' (2023) - a swarm of robotic arms painting live, driven by neural-network models trained on Chung's own gestural marks."
+      },
+      {
+        "url": "https://static.designboom.com/wp-content/uploads/2023/03/sougwen-chung-assembly-lines-designboom-11.jpg",
+        "caption": "Gallery view of 'Assembly Lines' (2023): wall-and-floor ink drawings co-created by Chung and her AI-guided robotic collaborators."
+      }
+    ]
+  },
+  {
+    "name": "Mario Klingemann",
+    "domain": "AI / GAN Art",
+    "credentials": "German artist and pioneer of neural-network (GAN) art, a Google Arts & Culture resident (2016-2018) and 2018 Lumen Prize Gold winner; his GAN installation 'Memories of Passersby I' became the first AI artwork auctioned at Sotheby's in 2019.",
+    "credentials_source": "https://en.wikipedia.org/wiki/Mario_Klingemann",
+    "credentials_date": "n/a - living reference",
+    "quote": "I use AI as a tool and the works that I make with this tool are mine and not a collaboration, in the same way I would not call a hammer or a piano a 'collaborator'.",
+    "quote_source": "https://www.sothebys.com/en/articles/artist-mario-klingemann-on-artificial-intelligence-art-tech-and-our-future",
+    "quote_date": "25 February 2019",
+    "ai_work_images": [
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/5c77350965a707ed1710a1bc/1555959783899-TV332EC0097STL764I5F/Mario+Klingemann+-+Memories+of+Passersby.jpg",
+        "caption": "Mario Klingemann, 'Memories of Passersby I' (2018) - a dual-screen GAN installation generating an endless stream of portraits in real time; sold at Sotheby's, 2019."
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/5c77350965a707ed1710a1bc/1555961416936-418QPJ91MS86F7E3LQ12/Mario+Klingemann+-+Glitch.png",
+        "caption": "From Klingemann's 'Neural Glitch' series - portraits produced by deliberately corrupting the weights of trained GAN models."
+      }
+    ]
+  },
+  {
+    "name": "Sofia Crespo",
+    "domain": "Generative AI / Bio-Art",
+    "credentials": "Argentine generative-AI artist based in Lisbon working at the intersection of neural networks and biology ('Neural Zoo', 'Artificial Remnants'); she and Anna Ridler were named Artist of the Year at the 2025 Arab Bank Switzerland Digital Art Prize for their career-long impact on digital art.",
+    "credentials_source": "https://fadmagazine.com/2025/06/13/anna-ridler-x-sofia-crespo-win-the-artist-of-the-year-at-abs-digital-art-prize-2025/",
+    "credentials_date": "13 June 2025",
+    "quote": "They're immensely impacting it because they're tools that weren't there before, meaning we get to create new things and re-examine what already has been done with new neural eyes.",
+    "quote_source": "https://clotmag.com/interviews/sofia-crespo-reimagining-nature-through-the-existing",
+    "quote_date": "16 April 2020",
+    "ai_work_images": [
+      {
+        "url": "https://www.thisiscolossal.com/wp-content/uploads/2020/09/crespo-5-scaled.jpg",
+        "caption": "Sofia Crespo, from her neural-network 'natural history' series - GAN-generated speculative fish specimens rendered as an antique naturalist's plate."
+      },
+      {
+        "url": "https://www.thisiscolossal.com/wp-content/uploads/2020/09/crespo-7-scaled.jpg",
+        "caption": "Sofia Crespo - a GAN-generated plate of imaginary marine organisms from her AI-driven natural-history series."
+      }
+    ]
+  },
+  {
+    "name": "Anna Ridler",
+    "domain": "GAN / Dataset Art",
+    "credentials": "British artist working with datasets and machine learning whose work is held in the permanent collection of the V&A; she has exhibited at the Barbican ('AI: More Than Human'), Centre Pompidou, ZKM Karlsruhe and Ars Electronica, where her tulip work received an honorary mention and was nominated for the Beazley Designs of the Year.",
+    "credentials_source": "https://en.wikipedia.org/wiki/Anna_Ridler",
+    "credentials_date": "n/a - living reference",
+    "quote": "For me it is very much a tool and a process. I don't find it encroaching on human expression, I find it a way of expressing myself more fully, in ways that I was never able to before.",
+    "quote_source": "https://felixonline.co.uk/articles/2019-05-24-an-interview-with-anna-ridler-the-artist-behind-mosaic-virus-and-myriad-tulips/",
+    "quote_date": "24 May 2019",
+    "ai_work_images": [
+      {
+        "url": "https://live.staticflickr.com/4893/30903359077_a7fb057074_b.jpg",
+        "caption": "'Mosaic Virus' (2018) - stills from Ridler's video installation of tulips generated by a GAN trained on 10,000 of her own hand-labelled tulip photos; petal striping is driven by the price of Bitcoin."
+      },
+      {
+        "url": "https://annaridler.com/content/works/myriad-tulips/block_1/DSC01064.webp",
+        "caption": "'Myriad (Tulips)' (2018) - the wall of ~10,000 hand-labelled photographs Ridler shot and categorised as the training dataset for the Mosaic Virus GAN."
+      }
+    ]
+  },
+  {
+    "name": "Claire Silver",
+    "domain": "AI Art (diffusion / mixed media)",
+    "credentials": "Prominent AI artist and advocate whose work has entered the permanent collection of the Los Angeles County Museum of Art (LACMA) and has sold at Sotheby's and Christie's; she has exhibited with SuperRare and at Art Basel and is regularly cited as a leading voice of the AI-art movement.",
+    "credentials_source": "https://www.clairesilver.com/about",
+    "credentials_date": "n/a - living reference",
+    "quote": "If photography is a camera that reflects reality, AI is a camera that reflects the artist's imagination.",
+    "quote_source": "https://medium.com/@mariroom/redefining-the-future-essential-skills-in-the-age-of-ai-artistry-an-interview-with-claire-3ad1aecbf220",
+    "quote_date": "5 June 2023",
+    "ai_work_images": [
+      {
+        "url": "https://static.wixstatic.com/media/2f268e_61d76e663b93409ba4b4dc909b3e7277~mv2.png",
+        "caption": "AI-generated painterly double-portrait from Claire Silver's portfolio (clairesilver.com), made with diffusion image tools over her fine-art aesthetic."
+      },
+      {
+        "url": "https://static.wixstatic.com/media/2f268e_11087d1976174b05af16c8d699c6f419~mv2.png",
+        "caption": "AI-generated portrait from Claire Silver's selected-work gallery, in her signature diffusion-model + classical-painting style."
+      }
+    ]
+  },
+  {
+    "name": "Helena Sarin",
+    "domain": "GAN / Neural Network Art",
+    "credentials": "Visual artist and software engineer known as an early GAN artist ('Neural Bricolage'); featured in NVIDIA's GTC AI Art Gallery (2020-2021) and creator of GAN artist books including 'The Book of GANesis,' with her work profiled by AIArtists.org and The Gradient.",
+    "credentials_source": "https://www.nvidia.com/en-us/research/ai-art-gallery/artists/helena-sarin/",
+    "credentials_date": "n/a - living reference",
+    "quote": "AI and living inside digital arts feels natural, because I'm very enthusiastic about software.",
+    "quote_source": "https://aotm.gallery/art-and-software-run-as-parallel-tracks-in-the-life-of-helena-sarin/",
+    "quote_date": "19 November 2022",
+    "ai_work_images": [
+      {
+        "url": "https://www.nvidia.com/content/dam/en-zz/Solutions/deep-learning/ai-art-gallery/gtc21-art-gallery-artist-helena-sarin-og.jpg",
+        "caption": "GAN-generated botanical collage in Sarin's small-dataset 'Neural Bricolage' style, featured in NVIDIA's GTC 2021 AI Art Gallery."
+      }
+    ]
+  },
+  {
+    "name": "Jason M. Allen",
+    "domain": "Generative AI Art (Midjourney)",
+    "credentials": "Digital artist who won first place in the digital-arts division of the 2022 Colorado State Fair fine-art competition with a Midjourney-generated piece, becoming an internationally covered figure in the AI-art debate.",
+    "credentials_source": "https://www.smithsonianmag.com/smart-news/artificial-intelligence-art-wins-colorado-state-fair-180980703/",
+    "credentials_date": "6 September 2022",
+    "quote": "I can now use AI to express these creative ideas and bring my vision into form.",
+    "quote_source": "https://museumweek2h1r4.substack.com/p/ai-takes-the-art-world-by-storm-exclusive",
+    "quote_date": "14 February 2023",
+    "ai_work_images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Th%C3%A9%C3%A2tre_D%E2%80%99op%C3%A9ra_Spatial.jpg",
+        "caption": "'Theatre D'opera Spatial' (2022) - the Midjourney-generated work that won the Colorado State Fair digital-arts prize."
+      }
+    ]
+  },
+  {
+    "name": "Bas Uterwijk",
+    "domain": "AI Portrait / Post-Photography",
+    "credentials": "Dutch digital artist (aka Ganbrood) known for photorealistic AI/GAN reconstructions of historical figures; his work has been featured by My Modern Met, Designboom and Bored Panda, shown in the 'Computational Realism' AI group exhibition (The NFT Gallery, London/New York), and is represented by Kate Vass Galerie.",
+    "credentials_source": "https://mymodernmet.com/bas-uterwijk-ai-portrait/",
+    "credentials_date": "25 August 2021",
+    "quote": "Just as photography changed the shape of classical painting, techniques based on artificial intelligence will start influencing and inspiring art and (post-)photography.",
+    "quote_source": "https://mymodernmet.com/bas-uterwijk-ai-portrait/",
+    "quote_date": "25 August 2021",
+    "ai_work_images": [
+      {
+        "url": "https://www.ganbrood.com/images/vincent-conceal.jpg",
+        "caption": "AI-generated portrait from Bas Uterwijk's 'Looking for Vincent' (Van Gogh) series - a GAN/neural-network reconstruction."
+      }
+    ]
+  },
+  {
+    "name": "Scott Eaton",
+    "domain": "AI + Figure Drawing",
+    "credentials": "British-based artist, anatomist and educator who studied figurative drawing/sculpture in Florence and computer graphics at the MIT Media Lab; his solo exhibition 'Artist+AI: Figures & Form in the Age of Intelligent Machines' was staged at Somerset House, London (2019), his ML works have shown at the Vancouver Art Gallery and NVIDIA's AI Art Gallery, and he teaches anatomy to studios including Disney, Pixar and Framestore.",
+    "credentials_source": "https://aiartists.org/scott-eaton",
+    "credentials_date": "n/a - living reference",
+    "quote": "In the near-term, AI will give artists amazing new creative capabilities.",
+    "quote_source": "https://thelondonmagazine.org/interview-scott-eaton-artistai/",
+    "quote_date": "26 June 2019",
+    "ai_work_images": [
+      {
+        "url": "https://www.scott-eaton.com/wp-content/uploads/Entangled_II-Cover.jpg",
+        "caption": "'Entangled II' (2019) - 4K video of high-speed paint-in-water processed through Eaton's custom 'BODIES' neural network to elicit evolving human forms."
+      },
+      {
+        "url": "https://www.scott-eaton.com/wp-content/uploads/HyperbolicComposition-I-ScottEaton.jpg",
+        "caption": "'Hyperbolic Composition I' - generated by a neural network Eaton trained on tens of thousands of his own studio figure photographs and drawings."
+      },
+      {
+        "url": "https://www.scott-eaton.com/wp-content/uploads/Humanity-Fall-of-the-Damned-Scott-Eaton.jpg",
+        "caption": "'Humanity (Fall of the Damned)' - large figurative composition made with Eaton's neural network trained on his figure-study dataset."
+      }
+    ]
+  },
+  {
+    "name": "Pindar Van Arman",
+    "domain": "Robotic AI Painting",
+    "credentials": "American artist and roboticist who has built AI painting robots ('cloudpainter') for ~15 years; his 'AI Imagined Portrait Painted by a Robot #2' won First Place at Robot Art 2018 and was acquired into the permanent collection of the Los Angeles County Museum of Art (LACMA, 2022), and his practice has been profiled by TIME and NVIDIA's AI Art Gallery.",
+    "credentials_source": "https://www.vanarman.com/feedback/2024/12/14/faces-in-the-darkness",
+    "credentials_date": "n/a - living reference",
+    "quote": "My machines have grown beyond being simple assistants and are now effectively augmenting my own creativity, as well as having creativity of their own.",
+    "quote_source": "https://dallasinnovates.com/the-last-word-fort-worths-pindar-van-arman-on-ai-art/",
+    "quote_date": "17 March 2023",
+    "ai_work_images": [
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/5800c6211b631b49b4d63657/628f80f7-8031-405e-9245-4dec42971843/gf002_cd037.JPG",
+        "caption": "'AI Imagined Portrait Painted by a Robot #2' - a GAN imagines a face while the robot paints it stroke-by-stroke (Robot Art 2018 winner; LACMA collection)."
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/5800c6211b631b49b4d63657/a5ae8d07-ad7c-4051-a0d1-af6867eaef03/128_firstsparks.jpg",
+        "caption": "'First Sparks of Artificial Creativity' - a grid of 128 GAN-imagined faces painted in acrylic by Van Arman's robots (for Tribeca Film Festival)."
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/5800c6211b631b49b4d63657/498cea6c-0f99-4035-98ce-4b5232f2df17/049_tokyo3+%281%29.jpg",
+        "caption": "'AI Imagined Faces' (Tokyo, 2023) - a later iteration of the GAN-plus-robot portrait series."
+      }
+    ]
+  }
+]
